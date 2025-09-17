@@ -17,6 +17,9 @@
                 <element inactive_on_update="false" label="state_permit" value="state_permit"/>
                 <element inactive_on_update="false" label="dea_registration" value="dea_registration"/>
                 <element inactive_on_update="false" label="veterinary_technician" sequence="0" value="veterinary_technician"/>
+                <element inactive_on_update="false" label="DVM" value="DVM"/>
+                <element inactive_on_update="false" label="CVT" value="CVT"/>
+                <element inactive_on_update="false" label="VA" value="VA"/>
             </choice>
         </element>
         <element attributes="edge_encryption_enabled=true" choice="1" label="License Status" max_length="40" name="u_license_status" type="choice">

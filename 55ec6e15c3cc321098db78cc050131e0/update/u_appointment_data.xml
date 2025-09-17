@@ -3,7 +3,7 @@
         <u_number>APT0001</u_number>
         <u_patient_name>buddy_golden_retriever_001</u_patient_name>
         <u_appointment_date>2024-01-15 10:00:00</u_appointment_date>
-        <u_appointment_type>routine_checkup</u_appointment_type>
+        <u_appointment_type>wellness</u_appointment_type>
         <u_reason>Annual wellness exam and vaccinations</u_reason>
         <u_veterinarian>dr_jennifer_smith</u_veterinarian>
         <u_status>completed</u_status>
@@ -39,7 +39,7 @@
         <u_number>APT0003</u_number>
         <u_patient_name>rex_german_shepherd_003</u_patient_name>
         <u_appointment_date>2024-01-22 09:15:00</u_appointment_date>
-        <u_appointment_type>consultation</u_appointment_type>
+        <u_appointment_type>follow_up</u_appointment_type>
         <u_reason>Hip dysplasia management check-up</u_reason>
         <u_veterinarian>dr_jennifer_smith</u_veterinarian>
         <u_status>completed</u_status>

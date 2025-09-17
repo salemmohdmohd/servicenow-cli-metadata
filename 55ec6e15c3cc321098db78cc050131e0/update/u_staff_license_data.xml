@@ -2,7 +2,7 @@
     <u_staff_license action="INSERT_OR_UPDATE">
         <u_number>LIC0001</u_number>
         <u_staff_member>dr_jennifer_smith</u_staff_member>
-        <u_license_type>veterinary_license</u_license_type>
+        <u_license_type>DVM</u_license_type>
         <u_license_number>DVM-CA-12345</u_license_number>
         <u_issuing_authority>California Veterinary Medical Board</u_issuing_authority>
         <u_issue_date>2015-05-20</u_issue_date>
@@ -18,7 +18,7 @@
     <u_staff_license action="INSERT_OR_UPDATE">
         <u_number>LIC0002</u_number>
         <u_staff_member>dr_michael_brown</u_staff_member>
-        <u_license_type>veterinary_license</u_license_type>
+        <u_license_type>DVM</u_license_type>
         <u_license_number>DVM-CA-23456</u_license_number>
         <u_issuing_authority>California Veterinary Medical Board</u_issuing_authority>
         <u_issue_date>2018-03-15</u_issue_date>
@@ -34,7 +34,7 @@
     <u_staff_license action="INSERT_OR_UPDATE">
         <u_number>LIC0003</u_number>
         <u_staff_member>dr_sarah_wilson</u_staff_member>
-        <u_license_type>veterinary_license</u_license_type>
+        <u_license_type>DVM</u_license_type>
         <u_license_number>DVM-CA-34567</u_license_number>
         <u_issuing_authority>California Veterinary Medical Board</u_issuing_authority>
         <u_issue_date>2020-09-10</u_issue_date>
@@ -50,7 +50,7 @@
     <u_staff_license action="INSERT_OR_UPDATE">
         <u_number>LIC0004</u_number>
         <u_staff_member>maria_garcia_cvt</u_staff_member>
-        <u_license_type>veterinary_technician</u_license_type>
+        <u_license_type>CVT</u_license_type>
         <u_license_number>CVT-CA-45678</u_license_number>
         <u_issuing_authority>California Association of Licensed Veterinary Technicians</u_issuing_authority>
         <u_issue_date>2019-07-22</u_issue_date>
@@ -66,7 +66,7 @@
     <u_staff_license action="INSERT_OR_UPDATE">
         <u_number>LIC0005</u_number>
         <u_staff_member>james_wilson_cvt</u_staff_member>
-        <u_license_type>veterinary_technician</u_license_type>
+        <u_license_type>CVT</u_license_type>
         <u_license_number>CVT-CA-56789</u_license_number>
         <u_issuing_authority>California Association of Licensed Veterinary Technicians</u_issuing_authority>
         <u_issue_date>2021-01-15</u_issue_date>
