@@ -3,17 +3,17 @@
         <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="u_number" type="string"/>
         <element attributes="edge_encryption_enabled=true" choice="1" label="Unit of Measure" max_length="40" name="u_unit_of_measure" type="choice">
             <choice>
-                <element inactive_on_update="false" label="each" value="each"/>
-                <element inactive_on_update="false" label="vial" value="vial"/>
-                <element inactive_on_update="false" label="mg" value="mg"/>
-                <element inactive_on_update="false" label="dose" sequence="0" value="dose"/>
                 <element inactive_on_update="false" label="kg" value="kg"/>
-                <element inactive_on_update="false" label="bag" value="bag"/>
-                <element inactive_on_update="false" label="roll" sequence="0" value="roll"/>
-                <element inactive_on_update="false" label="box" value="box"/>
                 <element inactive_on_update="false" label="case" value="case"/>
                 <element inactive_on_update="false" label="bottle" value="bottle"/>
                 <element inactive_on_update="false" label="ml" value="ml"/>
+                <element inactive_on_update="false" label="dose" sequence="0" value="dose"/>
+                <element inactive_on_update="false" label="each" value="each"/>
+                <element inactive_on_update="false" label="box" value="box"/>
+                <element inactive_on_update="false" label="bag" value="bag"/>
+                <element inactive_on_update="false" label="mg" value="mg"/>
+                <element inactive_on_update="false" label="roll" sequence="0" value="roll"/>
+                <element inactive_on_update="false" label="vial" value="vial"/>
             </choice>
         </element>
         <element attributes="edge_encryption_enabled=true" label="Item Code" max_length="40" name="u_item_code" type="string"/>
@@ -26,11 +26,11 @@
         <element attributes="edge_encryption_enabled=true" choice="1" label="Category" max_length="40" name="u_category" type="choice">
             <choice>
                 <element inactive_on_update="false" label="medications" value="medications"/>
+                <element inactive_on_update="false" label="equipment" value="equipment"/>
+                <element inactive_on_update="false" label="vaccines" value="vaccines"/>
                 <element inactive_on_update="false" label="food" value="food"/>
                 <element inactive_on_update="false" label="controlled_substances" value="controlled_substances"/>
-                <element inactive_on_update="false" label="vaccines" value="vaccines"/>
                 <element inactive_on_update="false" label="supplies" value="supplies"/>
-                <element inactive_on_update="false" label="equipment" value="equipment"/>
             </choice>
         </element>
         <element attributes="edge_encryption_enabled=true" label="Item Name" max_length="40" name="u_item_name" type="string"/>

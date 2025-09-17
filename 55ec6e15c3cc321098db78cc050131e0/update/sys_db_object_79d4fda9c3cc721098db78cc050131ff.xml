@@ -15,7 +15,7 @@
         <label>Staff License</label>
         <live_feed_enabled>false</live_feed_enabled>
         <name>u_staff_license</name>
-        <number_ref display_value="LIC">4ad431e9c3cc721098db78cc0501312e</number_ref>
+        <number_ref display_value="">4ad431e9c3cc721098db78cc0501312e</number_ref>
         <provider_class/>
         <read_access>true</read_access>
         <scriptable_table>false</scriptable_table>

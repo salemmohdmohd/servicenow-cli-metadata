@@ -15,7 +15,7 @@
         <label>Treatment</label>
         <live_feed_enabled>false</live_feed_enabled>
         <name>u_treatment</name>
-        <number_ref display_value="TRT">656e3529c300b21098db78cc05013197</number_ref>
+        <number_ref display_value="">656e3529c300b21098db78cc05013197</number_ref>
         <provider_class/>
         <read_access>true</read_access>
         <scriptable_table>false</scriptable_table>

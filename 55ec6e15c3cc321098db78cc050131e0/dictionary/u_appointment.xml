@@ -7,10 +7,10 @@
         <element attributes="edge_encryption_enabled=true" choice="1" label="Status" max_length="40" name="u_status" type="choice">
             <choice>
                 <element inactive_on_update="false" label="cancelled" value="cancelled"/>
-                <element inactive_on_update="false" label="confirmed" value="confirmed"/>
                 <element inactive_on_update="false" label="no_show" value="no_show"/>
-                <element inactive_on_update="false" label="in_progress" value="in_progress"/>
+                <element inactive_on_update="false" label="confirmed" value="confirmed"/>
                 <element inactive_on_update="false" label="scheduled" value="scheduled"/>
+                <element inactive_on_update="false" label="in_progress" value="in_progress"/>
                 <element inactive_on_update="false" label="completed" value="completed"/>
             </choice>
         </element>
@@ -18,22 +18,22 @@
         <element attributes="edge_encryption_enabled=true" label="Reason" max_length="40" name="u_reason" type="string"/>
         <element attributes="edge_encryption_enabled=true" choice="1" label="Appointment Type" max_length="40" name="u_appointment_type" type="choice">
             <choice>
-                <element inactive_on_update="false" label="dental" value="dental"/>
-                <element inactive_on_update="false" label="grooming" value="grooming"/>
-                <element inactive_on_update="false" label="vaccination" value="vaccination"/>
-                <element inactive_on_update="false" label="consultation" value="consultation"/>
-                <element inactive_on_update="false" label="medication_review" sequence="0" value="medication_review"/>
                 <element inactive_on_update="false" label="surgery" value="surgery"/>
+                <element inactive_on_update="false" label="grooming" value="grooming"/>
+                <element inactive_on_update="false" label="dental" value="dental"/>
+                <element inactive_on_update="false" label="medication_review" sequence="0" value="medication_review"/>
                 <element inactive_on_update="false" label="routine_checkup" value="routine_checkup"/>
+                <element inactive_on_update="false" label="consultation" value="consultation"/>
                 <element inactive_on_update="false" label="emergency" value="emergency"/>
+                <element inactive_on_update="false" label="vaccination" value="vaccination"/>
             </choice>
         </element>
         <element attributes="edge_encryption_enabled=true" choice="1" label="Payment Status" max_length="40" name="u_payment_status" type="choice">
             <choice>
+                <element inactive_on_update="false" label="insurance_pending" value="insurance_pending"/>
+                <element inactive_on_update="false" label="pending" value="pending"/>
                 <element inactive_on_update="false" label="paid" value="paid"/>
                 <element inactive_on_update="false" label="partial" value="partial"/>
-                <element inactive_on_update="false" label="pending" value="pending"/>
-                <element inactive_on_update="false" label="insurance_pending" value="insurance_pending"/>
                 <element inactive_on_update="false" label="overdue" value="overdue"/>
             </choice>
         </element>
