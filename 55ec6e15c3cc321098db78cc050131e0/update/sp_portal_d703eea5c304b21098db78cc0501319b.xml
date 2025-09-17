@@ -2,33 +2,41 @@
     <sp_portal action="INSERT_OR_UPDATE">
         <alternate_portal/>
         <communication_channels/>
-        <css_variables/>
+        <css_variables>:root {
+  --primary-color: #2c5282;
+  --secondary-color: #4a90e2;
+  --accent-color: #f7fafc;
+  --text-color: #2d3748;
+  --veterinary-green: #48bb78;
+  --emergency-red: #f56565;
+  --appointment-blue: #4299e1;
+}</css_variables>
         <dark_theme/>
         <default>false</default>
         <embeddable_macroponents/>
-        <enable_ais>false</enable_ais>
-        <enable_certificate_based_authentication>false</enable_certificate_based_authentication>
-        <enable_embeddables>false</enable_embeddables>
-        <enable_favorites>false</enable_favorites>
+        <enable_ais>true</enable_ais>
+        <enable_certificate_based_authentication>true</enable_certificate_based_authentication>
+        <enable_embeddables>true</enable_embeddables>
+        <enable_favorites>true</enable_favorites>
         <hide_portal_name>false</hide_portal_name>
         <homepage display_value="index">46cc384147532100ba13a5554ee49009</homepage>
-        <icon/>
+        <icon>4885f1d48bb0a510d2d077cd3f9acb88</icon>
         <inactive>false</inactive>
         <kb_knowledge_base/>
         <kb_knowledge_page/>
         <login_page/>
-        <logo/>
-        <logo_alt_text>Main Street Veterinary Hospital Logo</logo_alt_text>
+        <logo>4885f1d48bb0a510d2d077cd3f9acb88</logo>
+        <logo_alt_text>Main Street Veterinary Hospital - Caring for Your Pets Since 1985</logo_alt_text>
         <notfound_page/>
-        <quick_start_config/>
+        <quick_start_config>true</quick_start_config>
         <rtl_enabled>false</rtl_enabled>
-        <sc_catalog/>
+        <sc_catalog>e0d08b13c3330100c8b837659bba8fb4</sc_catalog>
         <sc_catalog_page/>
         <sc_category_page/>
-        <search_application/>
-        <search_results_configuration/>
+        <search_application>x_842127_veterinar</search_application>
+        <search_results_configuration>{"showAppearance":true,"showCategories":true,"showTags":true,"enableAudio":false,"maxResultsPerCategory":10,"enableVideoTranscription":false,"highlightSearchTerms":true,"enableVoiceSearch":false,"defaultSort":"relevance","enableAutoComplete":true,"itemsPerPage":25}</search_results_configuration>
         <sp_chat_queue/>
-        <sp_rectangle_menu/>
+        <sp_rectangle_menu>x_842127_veterinar_pet_owner_menu</sp_rectangle_menu>
         <sys_class_name>sp_portal</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-09-17 21:04:41</sys_created_on>
