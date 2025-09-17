@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_search_context_config">
+    <sys_search_context_config action="INSERT_OR_UPDATE">
+        <attachment_limit/>
+        <collapse_attachment>false</collapse_attachment>
+        <enable_exact_match>true</enable_exact_match>
+        <evam_definition/>
+        <filter_genius_results_by_search_source>false</filter_genius_results_by_search_source>
+        <genius_results_limit/>
+        <hit_highlighting>false</hit_highlighting>
+        <log_signals_server_side>false</log_signals_server_side>
+        <name>Veterinary ServiceNow - Workspace Search</name>
+        <search_engine>zing</search_engine>
+        <search_profile/>
+        <search_results_limit>10</search_results_limit>
+        <show_disabled_facets>false</show_disabled_facets>
+        <show_tab_counts>false</show_tab_counts>
+        <spell_check>false</spell_check>
+        <suggestions_to_show_limit>10</suggestions_to_show_limit>
+        <sys_class_name>sys_search_context_config</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-17 20:42:02</sys_created_on>
+        <sys_id>d4822a65f804b210cc633b25c810097f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Veterinary ServiceNow - Workspace Search</sys_name>
+        <sys_package display_value="Veterinary ServiceNow" source="55ec6e15c3cc321098db78cc050131e0">55ec6e15c3cc321098db78cc050131e0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Veterinary ServiceNow">55ec6e15c3cc321098db78cc050131e0</sys_scope>
+        <sys_update_name>sys_search_context_config_d4822a65f804b210cc633b25c810097f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-17 20:42:02</sys_updated_on>
+        <ts_index_group/>
+        <view/>
+    </sys_search_context_config>
+    <sys_translated_text action="delete_multiple" query="documentkey=d4822a65f804b210cc633b25c810097f"/>
+</record_update>

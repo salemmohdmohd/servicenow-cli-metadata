@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property">
+    <sys_ux_page_property action="INSERT_OR_UPDATE">
+        <choices/>
+        <description>Tabs Configuration</description>
+        <name>chrome_tab</name>
+        <page display_value="Veterinary ServiceNow">10822a658f04b210a54421c9d333ac87</page>
+        <required_translations>[ {
+  "message" : "New u_appointment",
+  "code" : "",
+  "comment" : ""
+}, {
+  "message" : "New u_inventory_item",
+  "code" : "",
+  "comment" : ""
+}, {
+  "message" : "New u_patient_record",
+  "code" : "",
+  "comment" : ""
+}, {
+  "message" : "New u_staff_license",
+  "code" : "",
+  "comment" : ""
+}, {
+  "message" : "New u_treatment",
+  "code" : "",
+  "comment" : ""
+}, {
+  "message" : "New u_vaccine_record",
+  "code" : "",
+  "comment" : ""
+} ]</required_translations>
+        <route/>
+        <suffix/>
+        <sys_class_name>sys_ux_page_property</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-17 20:42:03</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>global</sys_domain_path>
+        <sys_id>d4822a658804b210d8060d32d3b99679</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>chrome_tab</sys_name>
+        <sys_package display_value="Veterinary ServiceNow" source="55ec6e15c3cc321098db78cc050131e0">55ec6e15c3cc321098db78cc050131e0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Veterinary ServiceNow">55ec6e15c3cc321098db78cc050131e0</sys_scope>
+        <sys_update_name>sys_ux_page_property_d4822a658804b210d8060d32d3b99679</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-17 20:42:07</sys_updated_on>
+        <type>json</type>
+        <unique_name>55ec6e15c3cc321098db78cc050131e0.10822a658f04b210a54421c9d333ac87.root.global.chrome_tab</unique_name>
+        <value>{"contextual":["record"],"newTabMenu":[{"label":{"translatable":true,"message":"New u_appointment"},"routeInfo":{"route":"record","fields":{"table":"u_appointment","sysId":"-1"},"multiInstField":"sysId"},"condition":{"tableDescription":{"table":"u_appointment","canCreate":true}}},{"label":{"translatable":true,"message":"New u_inventory_item"},"routeInfo":{"route":"record","fields":{"table":"u_inventory_item","sysId":"-1"},"multiInstField":"sysId"},"condition":{"tableDescription":{"table":"u_inventory_item","canCreate":true}}},{"label":{"translatable":true,"message":"New u_patient_record"},"routeInfo":{"route":"record","fields":{"table":"u_patient_record","sysId":"-1"},"multiInstField":"sysId"},"condition":{"tableDescription":{"table":"u_patient_record","canCreate":true}}},{"label":{"translatable":true,"message":"New u_staff_license"},"routeInfo":{"route":"record","fields":{"table":"u_staff_license","sysId":"-1"},"multiInstField":"sysId"},"condition":{"tableDescription":{"table":"u_staff_license","canCreate":true}}},{"label":{"translatable":true,"message":"New u_treatment"},"routeInfo":{"route":"record","fields":{"table":"u_treatment","sysId":"-1"},"multiInstField":"sysId"},"condition":{"tableDescription":{"table":"u_treatment","canCreate":true}}},{"label":{"translatable":true,"message":"New u_vaccine_record"},"routeInfo":{"route":"record","fields":{"table":"u_vaccine_record","sysId":"-1"},"multiInstField":"sysId"},"condition":{"tableDescription":{"table":"u_vaccine_record","canCreate":true}}}],"maxMainTabLimit":10,"maxTotalSubTabLimit":30}</value>
+    </sys_ux_page_property>
+    <sys_translated_text action="delete_multiple" query="documentkey=d4822a658804b210d8060d32d3b99679"/>
+</record_update>

@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="" section_id="4c922e65c304b21098db78cc05013100" sys_domain="global" table="u_patient_record" version="3" view="workspace-veterinary-servicenow-0">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_number</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-09-17 20:42:17</sys_created_on>
+            <sys_id>44926e65c304b21098db78cc0501314d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_patient_record" sys_domain="global" view="d8822a657004b210401a34694c16d47e">4c922e65c304b21098db78cc05013100</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-09-17 20:42:17</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_owner_name</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-09-17 20:42:17</sys_created_on>
+            <sys_id>cc922e65c304b21098db78cc05013101</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_patient_record" sys_domain="global" view="d8822a657004b210401a34694c16d47e">4c922e65c304b21098db78cc05013100</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-09-17 20:42:17</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-09-17 20:42:17</sys_created_on>
+            <sys_id>4c926e65c304b21098db78cc0501314b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_patient_record" sys_domain="global" view="d8822a657004b210401a34694c16d47e">4c922e65c304b21098db78cc05013100</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-09-17 20:42:17</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_emergency_contact</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-09-17 20:42:17</sys_created_on>
+            <sys_id>44926e65c304b21098db78cc05013149</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_patient_record" sys_domain="global" view="d8822a657004b210401a34694c16d47e">4c922e65c304b21098db78cc05013100</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-09-17 20:42:17</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_date_of_birth</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-09-17 20:42:17</sys_created_on>
+            <sys_id>44926e65c304b21098db78cc0501314a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_patient_record" sys_domain="global" view="d8822a657004b210401a34694c16d47e">4c922e65c304b21098db78cc05013100</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-09-17 20:42:17</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_allergies</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-09-17 20:42:17</sys_created_on>
+            <sys_id>4c926e65c304b21098db78cc05013147</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_patient_record" sys_domain="global" view="d8822a657004b210401a34694c16d47e">4c922e65c304b21098db78cc05013100</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-09-17 20:42:17</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_species</element>
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-09-17 20:42:17</sys_created_on>
+            <sys_id>4c926e65c304b21098db78cc0501314e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_patient_record" sys_domain="global" view="d8822a657004b210401a34694c16d47e">4c922e65c304b21098db78cc05013100</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-09-17 20:42:17</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>7</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-09-17 20:42:17</sys_created_on>
+            <sys_id>4c926e65c304b21098db78cc0501314a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_patient_record" sys_domain="global" view="d8822a657004b210401a34694c16d47e">4c922e65c304b21098db78cc05013100</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-09-17 20:42:17</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_gender</element>
+            <position>8</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-09-17 20:42:17</sys_created_on>
+            <sys_id>44926e65c304b21098db78cc05013148</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_patient_record" sys_domain="global" view="d8822a657004b210401a34694c16d47e">4c922e65c304b21098db78cc05013100</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-09-17 20:42:17</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_weight</element>
+            <position>9</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-09-17 20:42:17</sys_created_on>
+            <sys_id>44926e65c304b21098db78cc0501314f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_patient_record" sys_domain="global" view="d8822a657004b210401a34694c16d47e">4c922e65c304b21098db78cc05013100</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-09-17 20:42:17</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_insurance_provider</element>
+            <position>10</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-09-17 20:42:17</sys_created_on>
+            <sys_id>4c926e65c304b21098db78cc05013146</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_patient_record" sys_domain="global" view="d8822a657004b210401a34694c16d47e">4c922e65c304b21098db78cc05013100</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-09-17 20:42:17</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>11</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-09-17 20:42:17</sys_created_on>
+            <sys_id>4c926e65c304b21098db78cc0501314d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_patient_record" sys_domain="global" view="d8822a657004b210401a34694c16d47e">4c922e65c304b21098db78cc05013100</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-09-17 20:42:17</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_owner_phone</element>
+            <position>12</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-09-17 20:42:17</sys_created_on>
+            <sys_id>c4922e65c304b21098db78cc05013102</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_patient_record" sys_domain="global" view="d8822a657004b210401a34694c16d47e">4c922e65c304b21098db78cc05013100</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-09-17 20:42:17</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>13</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-09-17 20:42:17</sys_created_on>
+            <sys_id>44926e65c304b21098db78cc0501314c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_patient_record" sys_domain="global" view="d8822a657004b210401a34694c16d47e">4c922e65c304b21098db78cc05013100</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-09-17 20:42:17</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_current_medications</element>
+            <position>14</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-09-17 20:42:17</sys_created_on>
+            <sys_id>4c926e65c304b21098db78cc05013149</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_patient_record" sys_domain="global" view="d8822a657004b210401a34694c16d47e">4c922e65c304b21098db78cc05013100</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-09-17 20:42:17</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_microchip_number</element>
+            <position>15</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-09-17 20:42:17</sys_created_on>
+            <sys_id>44926e65c304b21098db78cc0501314b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_patient_record" sys_domain="global" view="d8822a657004b210401a34694c16d47e">4c922e65c304b21098db78cc05013100</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-09-17 20:42:17</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>16</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-09-17 20:42:17</sys_created_on>
+            <sys_id>4c926e65c304b21098db78cc05013148</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_patient_record" sys_domain="global" view="d8822a657004b210401a34694c16d47e">4c922e65c304b21098db78cc05013100</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-09-17 20:42:17</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_patient_name</element>
+            <position>17</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-09-17 20:42:17</sys_created_on>
+            <sys_id>4c926e65c304b21098db78cc0501314f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_patient_record" sys_domain="global" view="d8822a657004b210401a34694c16d47e">4c922e65c304b21098db78cc05013100</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-09-17 20:42:17</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_medical_history</element>
+            <position>18</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-09-17 20:42:17</sys_created_on>
+            <sys_id>44926e65c304b21098db78cc05013147</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_patient_record" sys_domain="global" view="d8822a657004b210401a34694c16d47e">4c922e65c304b21098db78cc05013100</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-09-17 20:42:17</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>19</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-09-17 20:42:17</sys_created_on>
+            <sys_id>44926e65c304b21098db78cc0501314e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_patient_record" sys_domain="global" view="d8822a657004b210401a34694c16d47e">4c922e65c304b21098db78cc05013100</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-09-17 20:42:17</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_breed</element>
+            <position>20</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-09-17 20:42:17</sys_created_on>
+            <sys_id>44926e65c304b21098db78cc05013146</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_patient_record" sys_domain="global" view="d8822a657004b210401a34694c16d47e">4c922e65c304b21098db78cc05013100</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-09-17 20:42:17</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_owner_email</element>
+            <position>21</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-09-17 20:42:17</sys_created_on>
+            <sys_id>4c926e65c304b21098db78cc0501314c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_patient_record" sys_domain="global" view="d8822a657004b210401a34694c16d47e">4c922e65c304b21098db78cc05013100</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-09-17 20:42:17</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>u_patient_record</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-09-17 20:42:17</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4c922e65c304b21098db78cc05013100</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_patient_record</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Veterinary ServiceNow" source="55ec6e15c3cc321098db78cc050131e0">55ec6e15c3cc321098db78cc050131e0</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Veterinary ServiceNow">55ec6e15c3cc321098db78cc050131e0</sys_scope>
+            <sys_update_name>sys_ui_section_4c922e65c304b21098db78cc05013100</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-09-17 20:42:17</sys_updated_on>
+            <sys_user/>
+            <title>true</title>
+            <view display_value="Workspace Veterinary ServiceNow 0" name="workspace-veterinary-servicenow-0">d8822a657004b210401a34694c16d47e</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

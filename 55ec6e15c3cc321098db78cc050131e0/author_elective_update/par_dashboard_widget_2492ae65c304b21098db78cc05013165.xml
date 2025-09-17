@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_widget">
+    <par_dashboard_widget action="DELETE">
+        <canvas display_value="">2c92ae65c304b21098db78cc0501315a</canvas>
+        <component display_value="Heading">1f6e0643eca7a637e36bd7833549ec9e</component>
+        <component_props>{"variant":"header-primary","label":"Happening Now","wontWrap":false,"hasNoMargin":false,"level":"1","filterConfigurations":[],"noDebounce":"","contextMenuActions":[]}</component_props>
+        <h>3</h>
+        <name/>
+        <stored_component/>
+        <sys_class_name>par_dashboard_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-17 20:42:19</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>2492ae65c304b21098db78cc05013165</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="Veterinary ServiceNow" source="55ec6e15c3cc321098db78cc050131e0">55ec6e15c3cc321098db78cc050131e0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Veterinary ServiceNow">55ec6e15c3cc321098db78cc050131e0</sys_scope>
+        <sys_update_name>par_dashboard_widget_2492ae65c304b21098db78cc05013165</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-17 20:42:19</sys_updated_on>
+        <visualization/>
+        <w>47</w>
+        <widget_props/>
+        <x>0</x>
+        <y>0</y>
+    </par_dashboard_widget>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Veterinary ServiceNow">55ec6e15c3cc321098db78cc050131e0</application>
+        <file_path/>
+        <instance_id>9a106c2b1b6a319452a243f4bd4bcbf6</instance_id>
+        <instance_name>dev221089</instance_name>
+        <name>par_dashboard_widget_2492ae65c304b21098db78cc05013165</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_widget"><par_dashboard_widget action="INSERT_OR_UPDATE"><canvas display_value="">2c92ae65c304b21098db78cc0501315a</canvas><component display_value="Heading">1f6e0643eca7a637e36bd7833549ec9e</component><component_props>{"variant":"header-primary","label":"Happening Now","wontWrap":false,"hasNoMargin":false,"level":"1","filterConfigurations":[],"noDebounce":"","contextMenuActions":[]}</component_props><h>3</h><name/><stored_component/><sys_class_name>par_dashboard_widget</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-09-17 20:42:19</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>2492ae65c304b21098db78cc05013165</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_overrides/><sys_package display_value="Veterinary ServiceNow" source="55ec6e15c3cc321098db78cc050131e0">55ec6e15c3cc321098db78cc050131e0</sys_package><sys_policy/><sys_scope display_value="Veterinary ServiceNow">55ec6e15c3cc321098db78cc050131e0</sys_scope><sys_update_name>par_dashboard_widget_2492ae65c304b21098db78cc05013165</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-09-17 20:42:19</sys_updated_on><visualization/><w>47</w><widget_props/><x>0</x><y>0</y></par_dashboard_widget></record_update>]]></payload>
+        <payload_hash>893809048</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>5b94f2ddc3cc321098db78cc05013109</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-17 20:42:19</sys_created_on>
+        <sys_id>ec92ae65c304b21098db78cc05013166</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1995969f2290000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-17 20:42:19</sys_updated_on>
+        <type>PAR Dashboard Widget</type>
+        <update_guid>6492ae653304b210d2b9ba0ff7476c66</update_guid>
+        <update_guid_history>6492ae653304b210d2b9ba0ff7476c66:893809048</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">bc92ae65c304b21098db78cc050131c6</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-17 20:42:20</sys_created_on>
+        <sys_db_object display_value="" name="par_dashboard_widget">par_dashboard_widget</sys_db_object>
+        <sys_id>692796929b394d0c9e3f3d8cc8e43f91</sys_id>
+        <sys_metadata>2492ae65c304b21098db78cc05013165</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Veterinary ServiceNow" source="55ec6e15c3cc321098db78cc050131e0">55ec6e15c3cc321098db78cc050131e0</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Veterinary ServiceNow">55ec6e15c3cc321098db78cc050131e0</sys_scope>
+        <sys_scope_delete display_value="">0efd7e4304ff489e86610392bd5a0cc4</sys_scope_delete>
+        <sys_update_name>par_dashboard_widget_2492ae65c304b21098db78cc05013165</sys_update_name>
+        <sys_update_version display_value="par_dashboard_widget_2492ae65c304b21098db78cc05013165">ec92ae65c304b21098db78cc05013166</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-17 20:42:20</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

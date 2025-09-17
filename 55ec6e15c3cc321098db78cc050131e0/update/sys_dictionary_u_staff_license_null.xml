@@ -53,9 +53,9 @@
         <sys_scope display_value="Veterinary ServiceNow">55ec6e15c3cc321098db78cc050131e0</sys_scope>
         <sys_update_name>sys_dictionary_u_staff_license_null</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-09-17 17:22:30</sys_updated_on>
+        <sys_updated_on>2025-09-17 20:42:07</sys_updated_on>
         <table_reference>false</table_reference>
-        <text_index>false</text_index>
+        <text_index>true</text_index>
         <unique>false</unique>
         <use_dependent_field>false</use_dependent_field>
         <use_dynamic_default>false</use_dynamic_default>
@@ -69,7 +69,7 @@
     <sys_claim action="INSERT_OR_UPDATE">
         <claim_owner_scope display_value="Veterinary ServiceNow">55ec6e15c3cc321098db78cc050131e0</claim_owner_scope>
         <claim_timestamp>199592651790000001</claim_timestamp>
-        <metadata_update_name>sys_dictionary_u_staff_license_null</metadata_update_name>
+        <metadata_update_name>sys_dictionary_u_staff_license_NULL</metadata_update_name>
         <previous_claim_app_version>1.0.0</previous_claim_app_version>
         <previous_claim_name>Veterinary ServiceNow</previous_claim_name>
         <previous_claim_scope>55ec6e15c3cc321098db78cc050131e0</previous_claim_scope>

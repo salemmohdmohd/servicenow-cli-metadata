@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_search_source">
+    <sys_search_source action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition table="u_patient_record">active=true</condition>
+        <group/>
+        <name>Veterinary ServiceNow - u_patient_record</name>
+        <roles/>
+        <source_table>u_patient_record</source_table>
+        <sys_class_name>sys_search_source</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-17 20:42:07</sys_created_on>
+        <sys_id>ad82aa65c304b21098db78cc05013125</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Veterinary ServiceNow - u_patient_record</sys_name>
+        <sys_package display_value="Veterinary ServiceNow" source="55ec6e15c3cc321098db78cc050131e0">55ec6e15c3cc321098db78cc050131e0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Veterinary ServiceNow">55ec6e15c3cc321098db78cc050131e0</sys_scope>
+        <sys_update_name>sys_search_source_ad82aa65c304b21098db78cc05013125</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-17 20:42:07</sys_updated_on>
+    </sys_search_source>
+</record_update>

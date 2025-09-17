@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="ais_search_profile_ais_search_source_m2m">
+    <ais_search_profile_ais_search_source_m2m action="INSERT_OR_UPDATE">
+        <exclude_attachments_in_now_assist_genius_results>false</exclude_attachments_in_now_assist_genius_results>
+        <exclude_in_now_assist_genius_results>false</exclude_in_now_assist_genius_results>
+        <exclude_in_regular_search>false</exclude_in_regular_search>
+        <profile display_value="veterinary-servicenow Search Profile">5c822a65ba04b210b353755631f77d86</profile>
+        <search_source display_value="u_treatment">2e82ea65c304b21098db78cc05013127</search_source>
+        <sys_class_name>ais_search_profile_ais_search_source_m2m</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-17 20:42:11</sys_created_on>
+        <sys_id>2a82ea65c304b21098db78cc0501312a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>veterinary-servicenow Search Profile.u_treatment</sys_name>
+        <sys_package display_value="Veterinary ServiceNow" source="55ec6e15c3cc321098db78cc050131e0">55ec6e15c3cc321098db78cc050131e0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Veterinary ServiceNow">55ec6e15c3cc321098db78cc050131e0</sys_scope>
+        <sys_update_name>ais_search_profile_ais_search_source_m2m_2a82ea65c304b21098db78cc0501312a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-17 20:42:11</sys_updated_on>
+    </ais_search_profile_ais_search_source_m2m>
+</record_update>

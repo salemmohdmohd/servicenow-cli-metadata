@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element db_object_id="2162cf91c340721098db78cc050131c5" max_length="40" name="u_patient_record" type="collection">
+    <element db_object_id="2162cf91c340721098db78cc050131c5" max_length="40" name="u_patient_record" text_index="true" type="collection">
         <element attributes="edge_encryption_enabled=true" label="Owner Name" max_length="100" name="u_owner_name" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Emergency Contact" max_length="40" name="u_emergency_contact" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Date of Birth" max_length="40" name="u_date_of_birth" type="glide_date"/>
@@ -7,19 +7,19 @@
         <element attributes="edge_encryption_enabled=true" choice="1" label="Species" max_length="40" name="u_species" type="choice">
             <choice>
                 <element inactive_on_update="false" label="other" value="other"/>
-                <element inactive_on_update="false" label="dog" value="dog"/>
                 <element inactive_on_update="false" label="cat" value="cat"/>
                 <element inactive_on_update="false" label="reptile" value="reptile"/>
-                <element inactive_on_update="false" label="rabbit" value="rabbit"/>
+                <element inactive_on_update="false" label="dog" value="dog"/>
                 <element inactive_on_update="false" label="bird" value="bird"/>
+                <element inactive_on_update="false" label="rabbit" value="rabbit"/>
             </choice>
         </element>
         <element attributes="edge_encryption_enabled=true" choice="1" label="Gender" max_length="40" name="u_gender" type="choice">
             <choice>
-                <element inactive_on_update="false" label="female" value="female"/>
+                <element inactive_on_update="false" label="male" value="male"/>
                 <element inactive_on_update="false" label="spayed" sequence="0" value="spayed"/>
                 <element inactive_on_update="false" label="neutered" sequence="0" value="neutered"/>
-                <element inactive_on_update="false" label="male" value="male"/>
+                <element inactive_on_update="false" label="female" value="female"/>
             </choice>
         </element>
         <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="u_number" type="string"/>
