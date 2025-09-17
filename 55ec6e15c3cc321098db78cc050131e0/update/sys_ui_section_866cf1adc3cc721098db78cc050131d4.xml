@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_ui_section caption="" section_id="866cf1adc3cc721098db78cc050131d4" sys_domain="global" table="u_appointment" version="3" view="">
+    <sys_ui_section caption="Appointment Details" section_id="866cf1adc3cc721098db78cc050131d4" sys_domain="global" table="u_appointment" version="3" view="">
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.begin_split</element>
             <position>0</position>

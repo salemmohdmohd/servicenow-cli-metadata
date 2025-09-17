@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[function() {
+  var c = this;
+
+  c.refreshData = function() {
+    c.server.get().then(function(response) {
+      c.data = response.data;
+    });
+  };
+
+  // Auto-refresh every 30 seconds
+  setInterval(function() {
+    c.refreshData();
+  }, 30000);
+}]]></client_script>
+        <controller_as>c</controller_as>
+        <css>/* Pet Status Widget Styles */
+.pet-status-widget {
+  background: #f8f9fa;
+  border-radius: 8px;
+  padding: 20px;
+  margin: 10px 0;
+}
+
+.status-card {
+  background: white;
+  border-left: 4px solid #28a745;
+  padding: 15px;
+  margin: 10px 0;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.status-urgent {
+  border-left-color: #dc3545;
+}
+
+.status-warning {
+  border-left-color: #ffc107;
+}</css>
+        <data_table>u_patient_record</data_table>
+        <description>Dashboard widget showing pet health status and upcoming appointments</description>
+        <docs/>
+        <field_list/>
+        <has_preview>false</has_preview>
+        <id>pet_status_dashboard</id>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) {
+
+}]]></link>
+        <name>Pet Status Dashboard</name>
+        <option_schema>[
+  {
+    "name": "title",
+    "section": "Presentation",
+    "label": "Widget Title",
+    "type": "string",
+    "value": "Pet Health Status"
+  },
+  {
+    "name": "max_records",
+    "section": "Data",
+    "label": "Maximum Records",
+    "type": "integer",
+    "value": 10
+  }
+]</option_schema>
+        <public>false</public>
+        <roles/>
+        <script><![CDATA[(function() {
+  // Server-side script for Pet Status Dashboard
+
+  data.title = options.title || "Pet Health Status";
+  data.maxRecords = options.max_records || 10;
+
+  // Get recent patient records
+  var gr = new GlideRecord('u_patient_record');
+  gr.orderByDesc('sys_updated_on');
+  gr.setLimit(data.maxRecords);
+  gr.query();
+
+  data.patients = [];
+  while (gr.next()) {
+    data.patients.push({
+      sys_id: gr.getUniqueValue(),
+      patient_name: gr.getValue('u_patient_name'),
+      owner_name: gr.getValue('u_owner_name'),
+      species: gr.getValue('u_species'),
+      last_updated: gr.sys_updated_on.getDisplayValue()
+    });
+  }
+
+  // Get upcoming appointments
+  var apptGr = new GlideRecord('u_appointment');
+  apptGr.addQuery('u_appointment_date', '>=', new GlideDateTime());
+  apptGr.orderBy('u_appointment_date');
+  apptGr.setLimit(5);
+  apptGr.query();
+
+  data.upcoming_appointments = [];
+  while (apptGr.next()) {
+    data.upcoming_appointments.push({
+      sys_id: apptGr.getUniqueValue(),
+      patient_name: apptGr.getValue('u_patient_name'),
+      appointment_date: apptGr.u_appointment_date.getDisplayValue(),
+      appointment_type: apptGr.getValue('u_appointment_type'),
+      veterinarian: apptGr.getValue('u_veterinarian')
+    });
+  }
+})()]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-17 18:30:00</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>pet_status_widget_001</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Pet Status Dashboard</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Veterinary ServiceNow" source="55ec6e15c3cc321098db78cc050131e0">55ec6e15c3cc321098db78cc050131e0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Veterinary ServiceNow">55ec6e15c3cc321098db78cc050131e0</sys_scope>
+        <sys_update_name>sp_widget_pet_status_dashboard</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-17 18:30:00</sys_updated_on>
+        <template><![CDATA[<div class="pet-status-widget">
+  <h3>{{c.data.title}}</h3>
+
+  <div class="row">
+    <div class="col-md-6">
+      <h4>Recent Patients</h4>
+      <div ng-repeat="patient in c.data.patients" class="status-card">
+        <strong>{{patient.patient_name}}</strong> ({{patient.species}})<br>
+        <small>Owner: {{patient.owner_name}}</small><br>
+        <small>Last Updated: {{patient.last_updated}}</small>
+      </div>
+    </div>
+
+    <div class="col-md-6">
+      <h4>Upcoming Appointments</h4>
+      <div ng-repeat="appt in c.data.upcoming_appointments" class="status-card">
+        <strong>{{appt.patient_name}}</strong><br>
+        <small>{{appt.appointment_date}} - {{appt.appointment_type}}</small><br>
+        <small>Vet: {{appt.veterinarian}}</small>
+      </div>
+    </div>
+  </div>
+</div>]]></template>
+    </sp_widget>
+</record_update>

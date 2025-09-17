@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sp_portal">
+    <sp_portal action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <application display_value="Veterinary ServiceNow">55ec6e15c3cc321098db78cc050131e0</application>
+        <description>Pet owner portal for accessing veterinary services</description>
+        <enable_global_search>true</enable_global_search>
+        <homepage display_value="Pet Owner Home">pet_owner_home</homepage>
+        <icon/>
+        <knowledge_base/>
+        <logo/>
+        <order>100</order>
+        <roles>sn_customerservice.customer</roles>
+        <sys_class_name>sp_portal</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-17 18:30:00</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>pet_owner_portal_001</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Pet Owner Portal</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Veterinary ServiceNow" source="55ec6e15c3cc321098db78cc050131e0">55ec6e15c3cc321098db78cc050131e0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Veterinary ServiceNow">55ec6e15c3cc321098db78cc050131e0</sys_scope>
+        <sys_update_name>sp_portal_pet_owner_portal</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-17 18:30:00</sys_updated_on>
+        <theme display_value="Service Portal Bootstrap Theme">sp_standard_theme</theme>
+        <title>Main Street Veterinary - Pet Owner Portal</title>
+        <url_suffix>petowner</url_suffix>
+    </sp_portal>
+</record_update>

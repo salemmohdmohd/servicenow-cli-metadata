@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="wf_workflow">
+    <wf_workflow action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <application display_value="Veterinary ServiceNow">55ec6e15c3cc321098db78cc050131e0</application>
+        <description>Automatically sends appointment reminders to pet owners 24 hours before scheduled appointments</description>
+        <name>Appointment Reminder Workflow</name>
+        <on_cancel/>
+        <published>false</published>
+        <schedule>daily</schedule>
+        <sys_class_name>wf_workflow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-17 18:30:00</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>appointment_reminder_wf_001</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Appointment Reminder Workflow</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Veterinary ServiceNow" source="55ec6e15c3cc321098db78cc050131e0">55ec6e15c3cc321098db78cc050131e0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Veterinary ServiceNow">55ec6e15c3cc321098db78cc050131e0</sys_scope>
+        <sys_update_name>wf_workflow_appointment_reminder</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-17 18:30:00</sys_updated_on>
+        <table>u_appointment</table>
+        <template/>
+    </wf_workflow>
+</record_update>
