@@ -1,0 +1,19 @@
+{
+  "type": "application",
+  "name": "Veterinary ServiceNow",
+  "version": "1.0.0",
+  "description": "Main Street Veterinary Hospital ServiceNow Implementation",
+  "scope": "global",
+  "author": "Salem Mohd",
+  "fluent": true,
+  "supports": {
+    "servicenow": ">=tokyo"
+  },
+  "metadata": {
+    "application": {
+      "name": "Veterinary ServiceNow",
+      "scope": "global",
+      "version": "1.0.0"
+    }
+  }
+}

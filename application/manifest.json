@@ -1,0 +1,8 @@
+{
+  "name": "Veterinary ServiceNow",
+  "version": "1.0.0",
+  "scope": "global",
+  "description": "Main Street Veterinary Hospital ServiceNow Implementation",
+  "author": "Salem Mohd",
+  "type": "application"
+}
