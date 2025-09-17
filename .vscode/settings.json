@@ -1,5 +1,14 @@
 {
-    "servicenow.instanceUrl": "",
+    "servicenow.instanceUrl": "https://dev221089.service-now.com",
     "servicenow.username": "",
-    "servicenow.application": "global"
+    "servicenow.application": "global",
+    "servicenow.scope": "global",
+    "files.associations": {
+        "*.xml": "xml",
+        "*.json": "json",
+        "*.js": "javascript"
+    },
+    "editor.formatOnSave": true,
+    "editor.tabSize": 4,
+    "xml.format.enabled": true
 }

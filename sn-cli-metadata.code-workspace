@@ -1,0 +1,26 @@
+{
+    "folders": [
+        {
+            "name": "Veterinary ServiceNow",
+            "path": "."
+        }
+    ],
+    "settings": {
+        "workbench.editor.untitled.hint": "hidden",
+        "servicenow.instanceUrl": "",
+        "servicenow.username": "",
+        "servicenow.application": "global",
+        "files.associations": {
+            "*.xml": "xml",
+            "*.json": "json"
+        },
+        "editor.formatOnSave": true,
+        "editor.tabSize": 4
+    },
+    "extensions": {
+        "recommendations": [
+            "servicenow.servicenow-vscode"
+        ]
+    },
+    "description": "A ServiceNow Veterinary Project - Main Street Veterinary Hospital Implementation"
+}
