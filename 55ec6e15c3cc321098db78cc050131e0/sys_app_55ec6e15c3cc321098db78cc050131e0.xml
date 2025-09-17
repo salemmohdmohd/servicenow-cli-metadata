@@ -38,9 +38,6 @@
         <template/>
         <trackable>true</trackable>
         <uninstall_blocked>false</uninstall_blocked>
-        <vendor>MAINVET</vendor>
-        <vendor_prefix>x_842127_mainvet</vendor_prefix>
-        <version>1.0.0</version>
         <user_role display_value="x_842127_veterinar.user" name="x_842127_veterinar.user">3f5dae15c3cc321098db78cc05013125</user_role>
         <vendor/>
         <vendor_prefix/>

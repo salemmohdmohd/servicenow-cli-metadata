@@ -15,7 +15,7 @@
         <label>Vaccine Record</label>
         <live_feed_enabled>false</live_feed_enabled>
         <name>u_vaccine_record</name>
-        <number_ref display_value="VAC">dfe246adc300b21098db78cc05013102</number_ref>
+        <number_ref display_value="">dfe246adc300b21098db78cc05013102</number_ref>
         <provider_class/>
         <read_access>true</read_access>
         <scriptable_table>false</scriptable_table>

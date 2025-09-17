@@ -1,9 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_context_menu">
     <sys_ui_context_menu action="INSERT_OR_UPDATE">
-        <dynamic_ref_qual/>
+        <action_script/>
+        <active>false</active>
+        <comments/>
+        <condition/>
+        <do_not_cache>false</do_not_cache>
+        <dynamic_actions_script/>
+        <menu/>
         <name>veterinary_patient_actions</name>
+        <on_show_script/>
         <order>100</order>
-        <roles>x_842127_veterinar.user</roles>
+        <parent/>
+        <run_on_show_script>false</run_on_show_script>
         <sys_class_name>sys_ui_context_menu</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-09-17 18:30:00</sys_created_on>
@@ -20,5 +28,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2025-09-17 18:30:00</sys_updated_on>
         <table>u_patient_record</table>
+        <track_selected>false</track_selected>
+        <type/>
     </sys_ui_context_menu>
 </record_update>

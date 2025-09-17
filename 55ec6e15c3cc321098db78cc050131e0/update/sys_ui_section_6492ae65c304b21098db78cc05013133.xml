@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_ui_section caption="Vaccination History &amp; Immunization Records" section_id="6492ae65c304b21098db78cc05013133" sys_domain="global" table="u_vaccine_record" version="3" view="workspace-veterinary-servicenow-0">
+    <sys_ui_section caption="" section_id="6492ae65c304b21098db78cc05013133" sys_domain="global" table="u_vaccine_record" version="3" view="workspace-veterinary-servicenow-0">
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.begin_split</element>
             <position>0</position>

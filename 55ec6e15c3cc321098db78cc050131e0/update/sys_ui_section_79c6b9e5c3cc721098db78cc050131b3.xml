@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_ui_section caption="Inventory Details" section_id="79c6b9e5c3cc721098db78cc050131b3" sys_domain="global" table="u_inventory_item" version="3" view="">
+    <sys_ui_section caption="" section_id="79c6b9e5c3cc721098db78cc050131b3" sys_domain="global" table="u_inventory_item" version="3" view="">
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.begin_split</element>
             <position>0</position>
