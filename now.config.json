@@ -1,4 +1,6 @@
 {
   "scope": "global",
-  "scopeId": "global"
+  "scopeId": "global",
+  "appName": "Veterinary ServiceNow",
+  "appVersion": "1.0.0"
 }
