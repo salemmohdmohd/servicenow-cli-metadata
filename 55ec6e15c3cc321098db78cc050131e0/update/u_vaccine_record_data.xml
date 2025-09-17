@@ -1,52 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><database>
-    <element db_object_id="13e206adc300b21098db78cc050131ed" max_length="40" name="u_vaccine_record" text_index="true" type="collection">
-        <element attributes="edge_encryption_enabled=true" label="Administration Date" max_length="40" name="u_administration_date" type="glide_date"/>
-        <element attributes="edge_encryption_enabled=true" choice="1" label="Route of Administration" max_length="40" name="u_route_of_administration" type="choice">
-            <choice>
-                <element inactive_on_update="false" label="oral" value="oral"/>
-                <element inactive_on_update="false" label="intramuscular" value="intramuscular"/>
-                <element inactive_on_update="false" label="intranasal" value="intranasal"/>
-                <element inactive_on_update="false" label="subcutaneous" value="subcutaneous"/>
-            </choice>
-        </element>
-        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="u_number" type="string"/>
-        <element attributes="edge_encryption_enabled=true" choice="1" label="Vaccine Type" max_length="40" name="u_vaccine_type" type="choice">
-            <choice>
-                <element inactive_on_update="false" label="dhpp" value="dhpp"/>
-                <element inactive_on_update="false" label="bordetella" value="bordetella"/>
-                <element inactive_on_update="false" label="lyme" value="lyme"/>
-                <element inactive_on_update="false" label="heartworm" value="heartworm"/>
-                <element inactive_on_update="false" label="custom" value="custom"/>
-                <element inactive_on_update="false" label="rabies" value="rabies"/>
-                <element inactive_on_update="false" label="leukemia" value="leukemia"/>
-                <element inactive_on_update="false" label="fvrcp" value="fvrcp"/>
-            </choice>
-        </element>
-        <element attributes="encode_utf8=false" label="Administering Veterinarian" max_length="32" name="u_administering_veterinarian" reference="sys_user" type="reference"/>
-        <element attributes="edge_encryption_enabled=true" label="Vaccine Name" max_length="40" name="u_vaccine_name" type="string"/>
-        <element attributes="edge_encryption_enabled=true" choice="1" label="Compliance Status" max_length="40" name="u_compliance_status" type="choice">
-            <choice>
-                <element inactive_on_update="false" label="pending" value="pending"/>
-                <element inactive_on_update="false" label="exempt" value="exempt"/>
-                <element inactive_on_update="false" label="overdue" value="overdue"/>
-                <element inactive_on_update="false" label="compliant" value="compliant"/>
-            </choice>
-        </element>
-        <element attributes="encode_utf8=false" label="Patient Name" max_length="32" name="u_patient_name" reference="u_patient_record" type="reference"/>
-        <element attributes="edge_encryption_enabled=true" label="Manufacturer" max_length="40" name="u_manufacturer" type="string"/>
-        <element attributes="edge_encryption_enabled=true" label="Dosage" max_length="40" name="u_dosage" type="string"/>
-        <element attributes="edge_encryption_enabled=true" label="Expiration Date" max_length="40" name="u_expiration_date" type="glide_date"/>
-        <element attributes="omit_sys_original=true" label="Cost" max_length="20" name="u_cost" type="currency"/>
-        <element attributes="edge_encryption_enabled=true" label="Next Due Date" max_length="40" name="u_next_due_date" type="glide_date"/>
-        <element attributes="edge_encryption_enabled=true" label="Lot Number" max_length="40" name="u_lot_number" type="string"/>
-        <index name="index">
-            <element name="u_administering_veterinarian"/>
-        </index>
-        <index name="index2">
-            <element name="u_patient_name"/>
-        </index>
-    </element>
-</database>
+<?xml version="1.0" encoding="UTF-8"?><record_update table="u_vaccine_record">
     <u_vaccine_record action="INSERT_OR_UPDATE">
         <u_number>VAC0001</u_number>
         <u_patient_name>buddy_golden_retriever_001</u_patient_name>
@@ -141,4 +93,4 @@
         <sys_created_on>2023-12-01 16:00:00</sys_created_on>
         <sys_id>vac_charlie_polyoma_005</sys_id>
     </u_vaccine_record>
-</database>
+</record_update>

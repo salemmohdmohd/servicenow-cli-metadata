@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="u_appointment">
+    <u_appointment action="INSERT_OR_UPDATE">
+        <u_number>APT0001</u_number>
+        <u_patient_name>buddy_golden_retriever_001</u_patient_name>
+        <u_appointment_date>2024-01-15 10:00:00</u_appointment_date>
+        <u_appointment_type>routine_checkup</u_appointment_type>
+        <u_reason>Annual wellness exam and vaccinations</u_reason>
+        <u_veterinarian>dr_jennifer_smith</u_veterinarian>
+        <u_status>completed</u_status>
+        <u_notes>Patient in excellent health. Weight stable at 68.5 lbs. All vaccinations updated. Recommended continuing heartworm prevention.</u_notes>
+        <u_duration>45</u_duration>
+        <u_emergency>false</u_emergency>
+        <u_payment_status>paid</u_payment_status>
+        <u_total_cost>250.00</u_total_cost>
+        <u_room>Exam Room 1</u_room>
+        <sys_created_on>2024-01-10 09:00:00</sys_created_on>
+        <sys_id>apt_buddy_wellness_001</sys_id>
+    </u_appointment>
+
+    <u_appointment action="INSERT_OR_UPDATE">
+        <u_number>APT0002</u_number>
+        <u_patient_name>whiskers_maine_coon_002</u_patient_name>
+        <u_appointment_date>2024-01-18 14:30:00</u_appointment_date>
+        <u_appointment_type>emergency</u_appointment_type>
+        <u_reason>Vomiting and lethargy, possible digestive upset</u_reason>
+        <u_veterinarian>dr_michael_brown</u_veterinarian>
+        <u_status>completed</u_status>
+        <u_notes>Diagnosed with mild gastritis. Prescribed bland diet for 3 days and anti-nausea medication. Follow-up in 1 week if symptoms persist.</u_notes>
+        <u_duration>30</u_duration>
+        <u_emergency>true</u_emergency>
+        <u_payment_status>insurance_pending</u_payment_status>
+        <u_total_cost>180.00</u_total_cost>
+        <u_room>Emergency Room</u_room>
+        <sys_created_on>2024-01-18 13:45:00</sys_created_on>
+        <sys_id>apt_whiskers_emergency_002</sys_id>
+    </u_appointment>
+
+    <u_appointment action="INSERT_OR_UPDATE">
+        <u_number>APT0003</u_number>
+        <u_patient_name>rex_german_shepherd_003</u_patient_name>
+        <u_appointment_date>2024-01-22 09:15:00</u_appointment_date>
+        <u_appointment_type>consultation</u_appointment_type>
+        <u_reason>Hip dysplasia management check-up</u_reason>
+        <u_veterinarian>dr_jennifer_smith</u_veterinarian>
+        <u_status>completed</u_status>
+        <u_notes>Joint mobility improved with current supplement regimen. Owner reports Rex is more active. Continue current treatment plan.</u_notes>
+        <u_duration>30</u_duration>
+        <u_emergency>false</u_emergency>
+        <u_payment_status>paid</u_payment_status>
+        <u_total_cost>120.00</u_total_cost>
+        <u_room>Exam Room 2</u_room>
+        <sys_created_on>2024-01-15 16:20:00</sys_created_on>
+        <sys_id>apt_rex_followup_003</sys_id>
+    </u_appointment>
+
+    <u_appointment action="INSERT_OR_UPDATE">
+        <u_number>APT0004</u_number>
+        <u_patient_name>luna_holland_lop_004</u_patient_name>
+        <u_appointment_date>2024-01-25 11:00:00</u_appointment_date>
+        <u_appointment_type>grooming</u_appointment_type>
+        <u_reason>Nail trim and general health check</u_reason>
+        <u_veterinarian>dr_sarah_wilson</u_veterinarian>
+        <u_status>scheduled</u_status>
+        <u_notes></u_notes>
+        <u_duration>20</u_duration>
+        <u_emergency>false</u_emergency>
+        <u_payment_status>pending</u_payment_status>
+        <u_total_cost>45.00</u_total_cost>
+        <u_room>Exotic Care Room</u_room>
+        <sys_created_on>2024-01-20 10:30:00</sys_created_on>
+        <sys_id>apt_luna_grooming_004</sys_id>
+    </u_appointment>
+
+    <u_appointment action="INSERT_OR_UPDATE">
+        <u_number>APT0005</u_number>
+        <u_patient_name>charlie_african_grey_005</u_patient_name>
+        <u_appointment_date>2024-01-30 15:45:00</u_appointment_date>
+        <u_appointment_type>surgery</u_appointment_type>
+        <u_reason>Beak trim and wing clip</u_reason>
+        <u_veterinarian>dr_sarah_wilson</u_veterinarian>
+        <u_status>scheduled</u_status>
+        <u_notes>Routine maintenance procedure. Owner will fast bird for 2 hours before appointment.</u_notes>
+        <u_duration>60</u_duration>
+        <u_emergency>false</u_emergency>
+        <u_payment_status>pending</u_payment_status>
+        <u_total_cost>95.00</u_total_cost>
+        <u_room>Surgical Suite</u_room>
+        <sys_created_on>2024-01-22 14:00:00</sys_created_on>
+        <sys_id>apt_charlie_surgery_005</sys_id>
+    </u_appointment>
+</record_update>

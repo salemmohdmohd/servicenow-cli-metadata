@@ -39,6 +39,8 @@
         </element>
         <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="u_number" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Room" max_length="40" name="u_room" type="string"/>
+        <element label="Emergency Appointment" max_length="40" name="u_emergency" type="boolean" default="false"/>
+        <element attributes="edge_encryption_enabled=true" label="Notes" max_length="4000" name="u_notes" type="string"/>
         <index name="index">
             <element name="u_patient_name"/>
         </index>

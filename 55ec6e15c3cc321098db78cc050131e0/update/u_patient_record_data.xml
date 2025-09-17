@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="u_patient_record">
+    <u_patient_record action="INSERT_OR_UPDATE">
+        <u_number>PAT0001</u_number>
+        <u_patient_name>Buddy</u_patient_name>
+        <u_species>dog</u_species>
+        <u_breed>Golden Retriever</u_breed>
+        <u_gender>male</u_gender>
+        <u_date_of_birth>2019-03-15</u_date_of_birth>
+        <u_weight>68.5</u_weight>
+        <u_owner_name>Sarah Johnson</u_owner_name>
+        <u_owner_phone>(555) 123-4567</u_owner_phone>
+        <u_owner_email>sarah.johnson@email.com</u_owner_email>
+        <u_emergency_contact>Mark Johnson (555) 123-4568</u_emergency_contact>
+        <u_insurance_provider>PetPlan Insurance</u_insurance_provider>
+        <u_microchip_number>982000123456789</u_microchip_number>
+        <u_allergies>None known</u_allergies>
+        <u_current_medications>Heartworm preventative (monthly)</u_current_medications>
+        <u_medical_history>Routine vaccinations up to date. Had minor ear infection treated in 2023. Neutered at 6 months. Annual wellness exams show good health.</u_medical_history>
+        <u_active>true</u_active>
+        <u_registration_date>2019-04-01 09:30:00</u_registration_date>
+        <sys_created_on>2019-04-01 09:30:00</sys_created_on>
+        <sys_id>buddy_golden_retriever_001</sys_id>
+    </u_patient_record>
+
+    <u_patient_record action="INSERT_OR_UPDATE">
+        <u_number>PAT0002</u_number>
+        <u_patient_name>Whiskers</u_patient_name>
+        <u_species>cat</u_species>
+        <u_breed>Maine Coon</u_breed>
+        <u_gender>spayed</u_gender>
+        <u_date_of_birth>2020-07-22</u_date_of_birth>
+        <u_weight>12.3</u_weight>
+        <u_owner_name>Emily Chen</u_owner_name>
+        <u_owner_phone>(555) 234-5678</u_owner_phone>
+        <u_owner_email>emily.chen@email.com</u_owner_email>
+        <u_emergency_contact>David Chen (555) 234-5679</u_emergency_contact>
+        <u_insurance_provider>Healthy Paws</u_insurance_provider>
+        <u_microchip_number>982000987654321</u_microchip_number>
+        <u_allergies>Sensitive to chicken protein</u_allergies>
+        <u_current_medications>Special diet food for sensitive stomach</u_current_medications>
+        <u_medical_history>Spayed at 6 months. Had urinary tract infection in 2022, fully recovered. Regular dental cleanings. Current weight management plan.</u_medical_history>
+        <u_active>true</u_active>
+        <u_registration_date>2020-08-15 14:15:00</u_registration_date>
+        <sys_created_on>2020-08-15 14:15:00</sys_created_on>
+        <sys_id>whiskers_maine_coon_002</sys_id>
+    </u_patient_record>
+
+    <u_patient_record action="INSERT_OR_UPDATE">
+        <u_number>PAT0003</u_number>
+        <u_patient_name>Rex</u_patient_name>
+        <u_species>dog</u_species>
+        <u_breed>German Shepherd</u_breed>
+        <u_gender>neutered</u_gender>
+        <u_date_of_birth>2018-11-08</u_date_of_birth>
+        <u_weight>75.2</u_weight>
+        <u_owner_name>Michael Rodriguez</u_owner_name>
+        <u_owner_phone>(555) 345-6789</u_owner_phone>
+        <u_owner_email>m.rodriguez@email.com</u_owner_email>
+        <u_emergency_contact>Lisa Rodriguez (555) 345-6790</u_emergency_contact>
+        <u_insurance_provider>ASPCA Pet Insurance</u_insurance_provider>
+        <u_microchip_number>982000456789123</u_microchip_number>
+        <u_allergies>Environmental allergens (pollen)</u_allergies>
+        <u_current_medications>Apoquel for allergies, Joint supplement</u_current_medications>
+        <u_medical_history>Working dog with excellent health. Mild hip dysplasia diagnosed in 2023, managed with supplements and controlled exercise. Up to date on all vaccinations.</u_medical_history>
+        <u_active>true</u_active>
+        <u_registration_date>2019-01-12 10:00:00</u_registration_date>
+        <sys_created_on>2019-01-12 10:00:00</sys_created_on>
+        <sys_id>rex_german_shepherd_003</sys_id>
+    </u_patient_record>
+
+    <u_patient_record action="INSERT_OR_UPDATE">
+        <u_number>PAT0004</u_number>
+        <u_patient_name>Luna</u_patient_name>
+        <u_species>rabbit</u_species>
+        <u_breed>Holland Lop</u_breed>
+        <u_gender>spayed</u_gender>
+        <u_date_of_birth>2022-05-10</u_date_of_birth>
+        <u_weight>3.8</u_weight>
+        <u_owner_name>Ashley Kim</u_owner_name>
+        <u_owner_phone>(555) 456-7890</u_owner_phone>
+        <u_owner_email>ashley.kim@email.com</u_owner_email>
+        <u_emergency_contact>Brandon Kim (555) 456-7891</u_emergency_contact>
+        <u_insurance_provider>Nationwide Pet Insurance</u_insurance_provider>
+        <u_microchip_number>982000789123456</u_microchip_number>
+        <u_allergies>None known</u_allergies>
+        <u_current_medications>Vitamin C supplement</u_current_medications>
+        <u_medical_history>Healthy young rabbit. Spayed at 4 months. Regular nail trims and dental checks. Diet consists of timothy hay, pellets, and fresh vegetables.</u_medical_history>
+        <u_active>true</u_active>
+        <u_registration_date>2022-06-01 16:30:00</u_registration_date>
+        <sys_created_on>2022-06-01 16:30:00</sys_created_on>
+        <sys_id>luna_holland_lop_004</sys_id>
+    </u_patient_record>
+
+    <u_patient_record action="INSERT_OR_UPDATE">
+        <u_number>PAT0005</u_number>
+        <u_patient_name>Charlie</u_patient_name>
+        <u_species>bird</u_species>
+        <u_breed>African Grey Parrot</u_breed>
+        <u_gender>male</u_gender>
+        <u_date_of_birth>2015-09-20</u_date_of_birth>
+        <u_weight>0.45</u_weight>
+        <u_owner_name>Robert Thompson</u_owner_name>
+        <u_owner_phone>(555) 567-8901</u_owner_phone>
+        <u_owner_email>rob.thompson@email.com</u_owner_email>
+        <u_emergency_contact>Janet Thompson (555) 567-8902</u_emergency_contact>
+        <u_insurance_provider>Exotic Pet Insurance Co</u_insurance_provider>
+        <u_microchip_number>982000321654987</u_microchip_number>
+        <u_allergies>None known</u_allergies>
+        <u_current_medications>Daily vitamin supplement for birds</u_current_medications>
+        <u_medical_history>Mature African Grey in excellent health. Annual blood work normal. Beak and nail trims as needed. Very social and vocal bird with extensive vocabulary.</u_medical_history>
+        <u_active>true</u_active>
+        <u_registration_date>2016-02-14 11:45:00</u_registration_date>
+        <sys_created_on>2016-02-14 11:45:00</sys_created_on>
+        <sys_id>charlie_african_grey_005</sys_id>
+    </u_patient_record>
+</record_update>

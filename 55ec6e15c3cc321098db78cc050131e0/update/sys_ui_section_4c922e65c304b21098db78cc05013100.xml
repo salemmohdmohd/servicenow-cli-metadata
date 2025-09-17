@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><record_update>
+<    <sys_ui_section caption="Patient Information &amp; Medical History" section_id="4c922e65c304b21098db78cc050131e0" sys_domain="global" table="u_patient_record" version="3" view="workspace-veterinary-servicenow-0">xml version="1.0" encoding="UTF-8"?><record_update>
     <sys_ui_section caption="" section_id="4c922e65c304b21098db78cc05013100" sys_domain="global" table="u_patient_record" version="3" view="workspace-veterinary-servicenow-0">
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>u_number</element>

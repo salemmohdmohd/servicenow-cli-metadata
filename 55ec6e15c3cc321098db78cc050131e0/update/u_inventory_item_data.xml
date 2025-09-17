@@ -1,44 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><database>
-    <element db_object_id="beb6f96dc3cc721098db78cc050131d3" max_length="40" name="u_inventory_item" text_index="true" type="collection">
-        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="u_number" type="string"/>
-        <element attributes="edge_encryption_enabled=true" choice="1" label="Unit of Measure" max_length="40" name="u_unit_of_measure" type="choice">
-            <choice>
-                <element inactive_on_update="false" label="kg" value="kg"/>
-                <element inactive_on_update="false" label="case" value="case"/>
-                <element inactive_on_update="false" label="bottle" value="bottle"/>
-                <element inactive_on_update="false" label="dose" sequence="0" value="dose"/>
-                <element inactive_on_update="false" label="ml" value="ml"/>
-                <element inactive_on_update="false" label="each" value="each"/>
-                <element inactive_on_update="false" label="box" value="box"/>
-                <element inactive_on_update="false" label="roll" sequence="0" value="roll"/>
-                <element inactive_on_update="false" label="bag" value="bag"/>
-                <element inactive_on_update="false" label="vial" value="vial"/>
-                <element inactive_on_update="false" label="mg" value="mg"/>
-            </choice>
-        </element>
-        <element attributes="edge_encryption_enabled=true" label="Item Code" max_length="40" name="u_item_code" type="string"/>
-        <element attributes="edge_encryption_enabled=true" label="Supplier" max_length="40" name="u_supplier" type="string"/>
-        <element label="Controlled Substance" max_length="40" name="u_controlled_substance" type="boolean"/>
-        <element label="Reorder Point" max_length="40" name="u_reorder_point" type="integer"/>
-        <element attributes="omit_sys_original=true" label="Unit Cost" max_length="20" name="u_unit_cost" type="currency"/>
-        <element attributes="edge_encryption_enabled=true" label="Brand" max_length="40" name="u_brand" type="string"/>
-        <element attributes="edge_encryption_enabled=true" label="Storage Location" max_length="40" name="u_storage_location" type="string"/>
-        <element attributes="edge_encryption_enabled=true" choice="1" label="Category" max_length="40" name="u_category" type="choice">
-            <choice>
-                <element inactive_on_update="false" label="food" value="food"/>
-                <element inactive_on_update="false" label="controlled_substances" value="controlled_substances"/>
-                <element inactive_on_update="false" label="supplies" value="supplies"/>
-                <element inactive_on_update="false" label="equipment" value="equipment"/>
-                <element inactive_on_update="false" label="vaccines" value="vaccines"/>
-                <element inactive_on_update="false" label="medications" value="medications"/>
-            </choice>
-        </element>
-        <element attributes="edge_encryption_enabled=true" label="Item Name" max_length="40" name="u_item_name" type="string"/>
-        <element label="Reorder Quantity" max_length="40" name="u_reorder_quantity" type="integer"/>
-        <element label="Auto Order" max_length="40" name="u_auto_order" type="boolean"/>
-        <element label="Quantity on Hand" max_length="40" name="u_quantity_on_hand" type="integer"/>
-    </element>
-</database>
+<?xml version="1.0" encoding="UTF-8"?><record_update table="u_inventory_item">
     <u_inventory_item action="INSERT_OR_UPDATE">
         <u_number>INV0001</u_number>
         <u_item_name>Amoxicillin 250mg</u_item_name>
@@ -133,4 +93,4 @@
         <sys_created_on>2024-01-05 11:00:00</sys_created_on>
         <sys_id>inv_thermometer_005</sys_id>
     </u_inventory_item>
-</database>
+</record_update>
