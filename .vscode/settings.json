@@ -1,7 +1,7 @@
 {
     "servicenow.instanceUrl": "https://dev221089.service-now.com",
     "servicenow.username": "",
-    "servicenow.application": "global",
+    "servicenow.application": "Veterinary ServiceNow",
     "servicenow.scope": "global",
     "files.associations": {
         "*.xml": "xml",
