@@ -12,7 +12,7 @@
         <map_page/>
         <mobile_title>Dashboard</mobile_title>
         <mobile_view_name>Mobile</mobile_view_name>
-        <name>/now/nav/ui/classic/params/target/pa_dashboard.do%3Fsysparm_dashboard%3DVeterinary%2520Executive%2520Dashboard</name>
+        <name>/now/nav/ui/classic/params/target/pa_dashboard.do%3Fsysparm_dashboard%3DVeterina</name>
         <order>50</order>
         <override_menu_roles>false</override_menu_roles>
         <query>sysparm_dashboard=Veterinary%20Executive%20Dashboard</query>

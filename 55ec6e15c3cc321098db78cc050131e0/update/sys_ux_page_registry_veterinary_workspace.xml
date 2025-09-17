@@ -1,25 +1,19 @@
-<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_registry">
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_page_registry">
     <sys_ux_page_registry action="INSERT_OR_UPDATE">
         <active>true</active>
-        <application display_value="Veterinary ServiceNow">55ec6e15c3cc321098db78cc050131e0</application>
-        <category>workspace</category>
-        <config_page/>
-        <description>Custom workspace for veterinary staff to manage daily operations</description>
-        <landing_page/>
-        <menu_label>Veterinary Workspace</menu_label>
-        <name>veterinary_workspace</name>
-        <order>100</order>
-        <page_route>veterinary-workspace</page_route>
-        <roles>x_842127_veterinar.user</roles>
+        <admin_panel/>
+        <admin_panel_table/>
+        <auth_routes/>
+        <page/>
+        <parent_app/>
+        <path/>
+        <root_macroponent/>
         <sys_class_name>sys_ux_page_registry</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-09-17 18:30:00</sys_created_on>
-        <sys_domain>global</sys_domain>
-        <sys_domain_path>/</sys_domain_path>
         <sys_id>veterinary_workspace_001</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Veterinary Workspace</sys_name>
-        <sys_overrides/>
         <sys_package display_value="Veterinary ServiceNow" source="55ec6e15c3cc321098db78cc050131e0">55ec6e15c3cc321098db78cc050131e0</sys_package>
         <sys_policy/>
         <sys_scope display_value="Veterinary ServiceNow">55ec6e15c3cc321098db78cc050131e0</sys_scope>
@@ -27,6 +21,5 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2025-09-17 18:30:00</sys_updated_on>
         <title>Veterinary Workspace</title>
-        <type>workspace</type>
     </sys_ux_page_registry>
 </record_update>

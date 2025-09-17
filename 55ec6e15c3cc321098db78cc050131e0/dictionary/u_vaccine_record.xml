@@ -3,33 +3,33 @@
         <element attributes="edge_encryption_enabled=true" label="Administration Date" max_length="40" name="u_administration_date" type="glide_date"/>
         <element attributes="edge_encryption_enabled=true" choice="1" label="Route of Administration" max_length="40" name="u_route_of_administration" type="choice">
             <choice>
-                <element inactive_on_update="false" label="intranasal" value="intranasal"/>
-                <element inactive_on_update="false" label="subcutaneous" value="subcutaneous"/>
                 <element inactive_on_update="false" label="oral" value="oral"/>
                 <element inactive_on_update="false" label="intramuscular" value="intramuscular"/>
+                <element inactive_on_update="false" label="intranasal" value="intranasal"/>
+                <element inactive_on_update="false" label="subcutaneous" value="subcutaneous"/>
             </choice>
         </element>
         <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="u_number" type="string"/>
         <element attributes="edge_encryption_enabled=true" choice="1" label="Vaccine Type" max_length="40" name="u_vaccine_type" type="choice">
             <choice>
                 <element inactive_on_update="false" label="dhpp" value="dhpp"/>
-                <element inactive_on_update="false" label="heartworm" value="heartworm"/>
-                <element inactive_on_update="false" label="fvrcp" value="fvrcp"/>
-                <element inactive_on_update="false" label="custom" value="custom"/>
-                <element inactive_on_update="false" label="rabies" value="rabies"/>
                 <element inactive_on_update="false" label="bordetella" value="bordetella"/>
                 <element inactive_on_update="false" label="lyme" value="lyme"/>
+                <element inactive_on_update="false" label="heartworm" value="heartworm"/>
+                <element inactive_on_update="false" label="custom" value="custom"/>
+                <element inactive_on_update="false" label="rabies" value="rabies"/>
                 <element inactive_on_update="false" label="leukemia" value="leukemia"/>
+                <element inactive_on_update="false" label="fvrcp" value="fvrcp"/>
             </choice>
         </element>
         <element attributes="encode_utf8=false" label="Administering Veterinarian" max_length="32" name="u_administering_veterinarian" reference="sys_user" type="reference"/>
         <element attributes="edge_encryption_enabled=true" label="Vaccine Name" max_length="40" name="u_vaccine_name" type="string"/>
         <element attributes="edge_encryption_enabled=true" choice="1" label="Compliance Status" max_length="40" name="u_compliance_status" type="choice">
             <choice>
-                <element inactive_on_update="false" label="overdue" value="overdue"/>
-                <element inactive_on_update="false" label="exempt" value="exempt"/>
-                <element inactive_on_update="false" label="compliant" value="compliant"/>
                 <element inactive_on_update="false" label="pending" value="pending"/>
+                <element inactive_on_update="false" label="exempt" value="exempt"/>
+                <element inactive_on_update="false" label="overdue" value="overdue"/>
+                <element inactive_on_update="false" label="compliant" value="compliant"/>
             </choice>
         </element>
         <element attributes="encode_utf8=false" label="Patient Name" max_length="32" name="u_patient_name" reference="u_patient_record" type="reference"/>

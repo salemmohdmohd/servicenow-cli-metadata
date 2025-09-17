@@ -47,6 +47,7 @@
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-09-17 17:22:32</sys_created_on>
+        <sys_id>c6d431e9c3cc721098db78cc05013185</sys_id>
         <sys_name>License Status</sys_name>
         <sys_package display_value="Veterinary ServiceNow" source="55ec6e15c3cc321098db78cc050131e0">55ec6e15c3cc321098db78cc050131e0</sys_package>
         <sys_policy/>

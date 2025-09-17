@@ -4,10 +4,10 @@
         <element attributes="edge_encryption_enabled=true" label="Treatment Date" max_length="40" name="u_treatment_date" type="glide_date_time"/>
         <element attributes="edge_encryption_enabled=true" choice="1" label="Treatment Outcome" max_length="40" name="u_treatment_outcome" type="choice">
             <choice>
-                <element inactive_on_update="false" label="ongoing" value="ongoing"/>
-                <element inactive_on_update="false" label="complications" value="complications"/>
-                <element inactive_on_update="false" label="referred" value="referred"/>
                 <element inactive_on_update="false" label="successful" value="successful"/>
+                <element inactive_on_update="false" label="ongoing" value="ongoing"/>
+                <element inactive_on_update="false" label="referred" value="referred"/>
+                <element inactive_on_update="false" label="complications" value="complications"/>
             </choice>
         </element>
         <element attributes="edge_encryption_enabled=true" label="Diagnosis" max_length="40" name="u_diagnosis" type="string"/>
@@ -15,14 +15,14 @@
         <element attributes="edge_encryption_enabled=true" label="Medications Prescribed" max_length="40" name="u_medications_prescribed" type="string"/>
         <element attributes="edge_encryption_enabled=true" choice="1" label="Treatment Type" max_length="40" name="u_treatment_type" type="choice">
             <choice>
-                <element inactive_on_update="false" label="emergency" value="emergency"/>
-                <element inactive_on_update="false" label="medication" value="medication"/>
+                <element inactive_on_update="false" label="diagnostic" value="diagnostic"/>
                 <element inactive_on_update="false" label="vaccination" value="vaccination"/>
+                <element inactive_on_update="false" label="surgery" value="surgery"/>
+                <element inactive_on_update="false" label="emergency" value="emergency"/>
                 <element inactive_on_update="false" label="dental" value="dental"/>
                 <element inactive_on_update="false" label="routine_checkup" sequence="0" value="routine_checkup"/>
-                <element inactive_on_update="false" label="surgery" value="surgery"/>
-                <element inactive_on_update="false" label="diagnostic" value="diagnostic"/>
                 <element inactive_on_update="false" label="therapy" value="therapy"/>
+                <element inactive_on_update="false" label="medication" value="medication"/>
             </choice>
         </element>
         <element label="Follow-up Required" max_length="40" name="u_follow_up_required" type="boolean"/>

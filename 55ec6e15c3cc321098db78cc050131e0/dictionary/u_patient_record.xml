@@ -7,19 +7,19 @@
         <element attributes="edge_encryption_enabled=true" choice="1" label="Species" max_length="40" name="u_species" type="choice">
             <choice>
                 <element inactive_on_update="false" label="other" value="other"/>
-                <element inactive_on_update="false" label="dog" value="dog"/>
                 <element inactive_on_update="false" label="cat" value="cat"/>
                 <element inactive_on_update="false" label="reptile" value="reptile"/>
-                <element inactive_on_update="false" label="rabbit" value="rabbit"/>
+                <element inactive_on_update="false" label="dog" value="dog"/>
                 <element inactive_on_update="false" label="bird" value="bird"/>
+                <element inactive_on_update="false" label="rabbit" value="rabbit"/>
             </choice>
         </element>
         <element attributes="edge_encryption_enabled=true" choice="1" label="Gender" max_length="40" name="u_gender" type="choice">
             <choice>
-                <element inactive_on_update="false" label="female" value="female"/>
+                <element inactive_on_update="false" label="male" value="male"/>
                 <element inactive_on_update="false" label="spayed" sequence="0" value="spayed"/>
                 <element inactive_on_update="false" label="neutered" sequence="0" value="neutered"/>
-                <element inactive_on_update="false" label="male" value="male"/>
+                <element inactive_on_update="false" label="female" value="female"/>
             </choice>
         </element>
         <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="u_number" type="string"/>
