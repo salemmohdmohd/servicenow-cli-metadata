@@ -11,24 +11,21 @@
         <element attributes="edge_encryption_enabled=true" label="Issue Date" max_length="40" name="u_issue_date" type="glide_date"/>
         <element attributes="edge_encryption_enabled=true" choice="1" label="License Type" max_length="40" name="u_license_type" type="choice">
             <choice>
+                <element inactive_on_update="false" label="veterinary_technician" sequence="0" value="veterinary_technician"/>
+                <element inactive_on_update="false" label="state_permit" value="state_permit"/>
+                <element inactive_on_update="false" label="dea_registration" value="dea_registration"/>
                 <element inactive_on_update="false" label="veterinary_license" value="veterinary_license"/>
                 <element inactive_on_update="false" label="specialty_certification" value="specialty_certification"/>
                 <element inactive_on_update="false" label="continuing_education" value="continuing_education"/>
-                <element inactive_on_update="false" label="state_permit" value="state_permit"/>
-                <element inactive_on_update="false" label="dea_registration" value="dea_registration"/>
-                <element inactive_on_update="false" label="veterinary_technician" sequence="0" value="veterinary_technician"/>
-                <element inactive_on_update="false" label="DVM" value="DVM"/>
-                <element inactive_on_update="false" label="CVT" value="CVT"/>
-                <element inactive_on_update="false" label="VA" value="VA"/>
             </choice>
         </element>
         <element attributes="edge_encryption_enabled=true" choice="1" label="License Status" max_length="40" name="u_license_status" type="choice">
             <choice>
+                <element inactive_on_update="false" label="suspended" value="suspended"/>
+                <element inactive_on_update="false" label="pending_renewal" value="pending_renewal"/>
                 <element inactive_on_update="false" label="revoked" value="revoked"/>
                 <element inactive_on_update="false" label="expired" value="expired"/>
-                <element inactive_on_update="false" label="pending_renewal" value="pending_renewal"/>
                 <element inactive_on_update="false" label="active" value="active"/>
-                <element inactive_on_update="false" label="suspended" value="suspended"/>
             </choice>
         </element>
         <index name="index">

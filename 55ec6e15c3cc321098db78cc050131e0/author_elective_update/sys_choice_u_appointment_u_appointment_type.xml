@@ -6,6 +6,7 @@
             <sys_class_name>sys_choice_set</sys_class_name>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2025-09-17 17:55:25</sys_created_on>
+            <sys_id>735c7565c300b21098db78cc0501312b</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>u_appointment_type</sys_name>
             <sys_package display_value="Veterinary ServiceNow" source="55ec6e15c3cc321098db78cc050131e0">55ec6e15c3cc321098db78cc050131e0</sys_package>
@@ -29,6 +30,7 @@
             <sys_created_on>2025-09-17 17:55:26</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
+            <sys_id>fe05072dc3c4b21098db78cc0501315b</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2025-09-17 17:55:26</sys_updated_on>
@@ -48,6 +50,7 @@
             <sys_created_on>2025-09-17 17:55:25</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
+            <sys_id>7e05072dc3c4b21098db78cc0501315c</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2025-09-17 17:55:25</sys_updated_on>
@@ -67,6 +70,7 @@
             <sys_created_on>2025-09-17 17:55:25</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
+            <sys_id>fa05072dc3c4b21098db78cc0501315d</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2025-09-17 17:55:25</sys_updated_on>
@@ -86,6 +90,7 @@
             <sys_created_on>2025-09-17 17:55:25</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
+            <sys_id>7a05072dc3c4b21098db78cc0501315e</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2025-09-17 17:55:25</sys_updated_on>
@@ -105,6 +110,7 @@
             <sys_created_on>2025-09-17 17:55:25</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
+            <sys_id>f605072dc3c4b21098db78cc0501315f</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2025-09-17 17:55:25</sys_updated_on>
@@ -124,6 +130,7 @@
             <sys_created_on>2025-09-17 17:55:25</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
+            <sys_id>7605072dc3c4b21098db78cc05013160</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2025-09-17 17:55:25</sys_updated_on>
@@ -143,6 +150,7 @@
             <sys_created_on>2025-09-17 17:55:25</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
+            <sys_id>f205072dc3c4b21098db78cc05013161</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2025-09-17 17:55:25</sys_updated_on>
@@ -162,6 +170,7 @@
             <sys_created_on>2025-09-17 17:55:27</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
+            <sys_id>7205072dc3c4b21098db78cc05013162</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2025-09-17 17:55:27</sys_updated_on>

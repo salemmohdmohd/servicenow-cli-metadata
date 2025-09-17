@@ -6,6 +6,7 @@
             <sys_class_name>sys_choice_set</sys_class_name>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2025-09-17 17:55:26</sys_created_on>
+            <sys_id>006c7565c300b21098db78cc0501315a</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>u_payment_status</sys_name>
             <sys_package display_value="Veterinary ServiceNow" source="55ec6e15c3cc321098db78cc050131e0">55ec6e15c3cc321098db78cc050131e0</sys_package>
@@ -29,6 +30,7 @@
             <sys_created_on>2025-09-17 17:55:26</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
+            <sys_id>be05072dc3c4b21098db78cc05013167</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2025-09-17 17:55:26</sys_updated_on>
@@ -48,6 +50,7 @@
             <sys_created_on>2025-09-17 17:55:26</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
+            <sys_id>3e05072dc3c4b21098db78cc05013168</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2025-09-17 17:55:26</sys_updated_on>
@@ -67,6 +70,7 @@
             <sys_created_on>2025-09-17 17:55:26</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
+            <sys_id>ba05072dc3c4b21098db78cc05013169</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2025-09-17 17:55:26</sys_updated_on>
@@ -86,6 +90,7 @@
             <sys_created_on>2025-09-17 17:55:26</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
+            <sys_id>3a05072dc3c4b21098db78cc0501316a</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2025-09-17 17:55:26</sys_updated_on>
@@ -105,6 +110,7 @@
             <sys_created_on>2025-09-17 17:55:26</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
+            <sys_id>b605072dc3c4b21098db78cc0501316b</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2025-09-17 17:55:26</sys_updated_on>
