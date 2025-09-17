@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_ui_section caption="Patient Information" section_id="487243d1c340721098db78cc05013133" sys_domain="global" table="u_patient_record" version="3" view="">
+    <sys_ui_section caption="" section_id="487243d1c340721098db78cc05013133" sys_domain="global" table="u_patient_record" version="3" view="">
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>u_number</element>
             <position>0</position>

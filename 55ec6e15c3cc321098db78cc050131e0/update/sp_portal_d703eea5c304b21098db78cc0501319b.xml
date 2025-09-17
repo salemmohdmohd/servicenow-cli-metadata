@@ -30,13 +30,13 @@
         <notfound_page/>
         <quick_start_config>true</quick_start_config>
         <rtl_enabled>false</rtl_enabled>
-        <sc_catalog>e0d08b13c3330100c8b837659bba8fb4</sc_catalog>
+        <sc_catalog display_value="Service Catalog">e0d08b13c3330100c8b837659bba8fb4</sc_catalog>
         <sc_catalog_page/>
         <sc_category_page/>
-        <search_application>x_842127_veterinar</search_application>
-        <search_results_configuration>{"showAppearance":true,"showCategories":true,"showTags":true,"enableAudio":false,"maxResultsPerCategory":10,"enableVideoTranscription":false,"highlightSearchTerms":true,"enableVoiceSearch":false,"defaultSort":"relevance","enableAutoComplete":true,"itemsPerPage":25}</search_results_configuration>
+        <search_application display_value="">x_842127_veterinar</search_application>
+        <search_results_configuration display_value="">{"showAppearance":true,"showCate</search_results_configuration>
         <sp_chat_queue/>
-        <sp_rectangle_menu>x_842127_veterinar_pet_owner_menu</sp_rectangle_menu>
+        <sp_rectangle_menu display_value="">x_842127_veterinar_pet_owner_men</sp_rectangle_menu>
         <sys_class_name>sp_portal</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-09-17 21:04:41</sys_created_on>
