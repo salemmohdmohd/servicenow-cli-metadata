@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="u_unit_of_measure" table="u_inventory_item" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>u_unit_of_measure</element>
+            <name>u_inventory_item</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-09-17 17:30:49</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_unit_of_measure</sys_name>
+            <sys_package display_value="Veterinary ServiceNow" source="55ec6e15c3cc321098db78cc050131e0">55ec6e15c3cc321098db78cc050131e0</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Veterinary ServiceNow">55ec6e15c3cc321098db78cc050131e0</sys_scope>
+            <sys_update_name>sys_choice_u_inventory_item_u_unit_of_measure</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-09-17 17:30:49</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_unit_of_measure</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>bag</label>
+            <language>en</language>
+            <name>u_inventory_item</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-09-17 17:30:49</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-09-17 17:30:49</sys_updated_on>
+            <value>bag</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_unit_of_measure</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>bottle</label>
+            <language>en</language>
+            <name>u_inventory_item</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-09-17 17:30:49</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-09-17 17:30:49</sys_updated_on>
+            <value>bottle</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_unit_of_measure</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>box</label>
+            <language>en</language>
+            <name>u_inventory_item</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-09-17 17:30:49</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-09-17 17:30:49</sys_updated_on>
+            <value>box</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_unit_of_measure</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>case</label>
+            <language>en</language>
+            <name>u_inventory_item</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-09-17 17:30:49</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-09-17 17:30:49</sys_updated_on>
+            <value>case</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_unit_of_measure</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>each</label>
+            <language>en</language>
+            <name>u_inventory_item</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-09-17 17:30:49</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-09-17 17:30:49</sys_updated_on>
+            <value>each</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_unit_of_measure</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>kg</label>
+            <language>en</language>
+            <name>u_inventory_item</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-09-17 17:30:49</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-09-17 17:30:49</sys_updated_on>
+            <value>kg</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_unit_of_measure</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>mg</label>
+            <language>en</language>
+            <name>u_inventory_item</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-09-17 17:30:49</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-09-17 17:30:49</sys_updated_on>
+            <value>mg</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_unit_of_measure</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>ml</label>
+            <language>en</language>
+            <name>u_inventory_item</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-09-17 17:30:49</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-09-17 17:30:49</sys_updated_on>
+            <value>ml</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_unit_of_measure</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>vial</label>
+            <language>en</language>
+            <name>u_inventory_item</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-09-17 17:30:49</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-09-17 17:30:49</sys_updated_on>
+            <value>vial</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_unit_of_measure</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>dose</label>
+            <language>en</language>
+            <name>u_inventory_item</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-09-17 17:30:50</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-09-17 17:30:50</sys_updated_on>
+            <value>dose</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_unit_of_measure</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>roll</label>
+            <language>en</language>
+            <name>u_inventory_item</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-09-17 17:30:51</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-09-17 17:30:51</sys_updated_on>
+            <value>roll</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

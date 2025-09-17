@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="u_appointment_type" table="u_appointment" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>u_appointment_type</element>
+            <name>u_appointment</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-09-17 17:55:25</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_appointment_type</sys_name>
+            <sys_package display_value="Veterinary ServiceNow" source="55ec6e15c3cc321098db78cc050131e0">55ec6e15c3cc321098db78cc050131e0</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Veterinary ServiceNow">55ec6e15c3cc321098db78cc050131e0</sys_scope>
+            <sys_update_name>sys_choice_u_appointment_u_appointment_type</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-09-17 17:55:25</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_appointment_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>consultation</label>
+            <language>en</language>
+            <name>u_appointment</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-09-17 17:55:26</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-09-17 17:55:26</sys_updated_on>
+            <value>consultation</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_appointment_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>dental</label>
+            <language>en</language>
+            <name>u_appointment</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-09-17 17:55:25</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-09-17 17:55:25</sys_updated_on>
+            <value>dental</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_appointment_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>emergency</label>
+            <language>en</language>
+            <name>u_appointment</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-09-17 17:55:25</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-09-17 17:55:25</sys_updated_on>
+            <value>emergency</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_appointment_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>grooming</label>
+            <language>en</language>
+            <name>u_appointment</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-09-17 17:55:25</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-09-17 17:55:25</sys_updated_on>
+            <value>grooming</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_appointment_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>routine_checkup</label>
+            <language>en</language>
+            <name>u_appointment</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-09-17 17:55:25</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-09-17 17:55:25</sys_updated_on>
+            <value>routine_checkup</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_appointment_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>surgery</label>
+            <language>en</language>
+            <name>u_appointment</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-09-17 17:55:25</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-09-17 17:55:25</sys_updated_on>
+            <value>surgery</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_appointment_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>vaccination</label>
+            <language>en</language>
+            <name>u_appointment</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-09-17 17:55:25</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-09-17 17:55:25</sys_updated_on>
+            <value>vaccination</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_appointment_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>medication_review</label>
+            <language>en</language>
+            <name>u_appointment</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-09-17 17:55:27</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-09-17 17:55:27</sys_updated_on>
+            <value>medication_review</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

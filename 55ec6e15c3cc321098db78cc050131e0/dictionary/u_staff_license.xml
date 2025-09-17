@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="79d4fda9c3cc721098db78cc050131ff" max_length="40" name="u_staff_license" type="collection">
+        <element label="CE Hours Completed" max_length="40" name="u_ce_hours_completed" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" label="Specialty Area" max_length="40" name="u_specialty_area" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Issuing Authority" max_length="40" name="u_issuing_authority" type="string"/>
+        <element label="CE Hours Required" max_length="40" name="u_ce_hours_required" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" label="Expiration Date" max_length="40" name="u_expiration_date" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" label="License Number" max_length="40" name="u_license_number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="u_number" type="string"/>
+        <element attributes="encode_utf8=false" label="Staff Member" max_length="32" name="u_staff_member" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Issue Date" max_length="40" name="u_issue_date" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="License Type" max_length="40" name="u_license_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="dea_registration" value="dea_registration"/>
+                <element inactive_on_update="false" label="specialty_certification" value="specialty_certification"/>
+                <element inactive_on_update="false" label="continuing_education" value="continuing_education"/>
+                <element inactive_on_update="false" label="veterinary_technician" sequence="0" value="veterinary_technician"/>
+                <element inactive_on_update="false" label="veterinary_license" value="veterinary_license"/>
+                <element inactive_on_update="false" label="state_permit" value="state_permit"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="License Status" max_length="40" name="u_license_status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="suspended" value="suspended"/>
+                <element inactive_on_update="false" label="active" value="active"/>
+                <element inactive_on_update="false" label="pending_renewal" value="pending_renewal"/>
+                <element inactive_on_update="false" label="revoked" value="revoked"/>
+                <element inactive_on_update="false" label="expired" value="expired"/>
+            </choice>
+        </element>
+        <index name="index">
+            <element name="u_staff_member"/>
+        </index>
+    </element>
+</database>

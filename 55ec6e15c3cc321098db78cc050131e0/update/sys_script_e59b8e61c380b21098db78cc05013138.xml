@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>true</action_insert>
+        <action_query>false</action_query>
+        <action_update>false</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>u_patient_record</collection>
+        <condition>before</condition>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition/>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>Auto Generate Patient ID</name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
+    if (current.isNewRecord() && current.u_patient_id.nil()) {
+        // Generate Patient ID: PAT-YYYY-NNNN format
+        var date = new GlideDateTime();
+        var year = date.getDisplayValue().substring(0, 4);
+        
+        // Get next sequence number
+        var gr = new GlideRecord('u_patient_record');
+        gr.orderByDesc('sys_created_on');
+        gr.setLimit(1);
+        gr.query();
+        
+        var nextNum = 1;
+        if (gr.hasNext()) {
+            gr.next();
+            var lastId = gr.getValue('u_patient_id');
+            if (lastId && lastId.indexOf('PAT-' + year + '-') === 0) {
+                var numPart = lastId.substring(9);
+                nextNum = parseInt(numPart) + 1;
+            }
+        }
+        
+        var paddedNum = ('0000' + nextNum).slice(-4);
+        current.u_patient_id = 'PAT-' + year + '-' + paddedNum;
+    }
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-17 19:10:13</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>e59b8e61c380b21098db78cc05013138</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Auto Generate Patient ID</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Veterinary ServiceNow" source="55ec6e15c3cc321098db78cc050131e0">55ec6e15c3cc321098db78cc050131e0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Veterinary ServiceNow">55ec6e15c3cc321098db78cc050131e0</sys_scope>
+        <sys_update_name>sys_script_e59b8e61c380b21098db78cc05013138</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-17 19:10:13</sys_updated_on>
+        <template/>
+        <when>before</when>
+    </sys_script>
+    <sys_translated_text action="delete_multiple" query="documentkey=e59b8e61c380b21098db78cc05013138"/>
+    <sys_es_latest_script action="INSERT_OR_UPDATE">
+        <id>e59b8e61c380b21098db78cc05013138</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-17 19:10:13</sys_created_on>
+        <sys_id>ef7d8e21c380b21098db78cc0501313b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-17 19:10:13</sys_updated_on>
+        <table>sys_script</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
+</record_update>

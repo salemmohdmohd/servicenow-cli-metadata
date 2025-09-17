@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="u_vaccine_type" table="u_vaccine_record" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>u_vaccine_type</element>
+            <name>u_vaccine_record</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-09-17 18:24:05</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_vaccine_type</sys_name>
+            <sys_package display_value="Veterinary ServiceNow" source="55ec6e15c3cc321098db78cc050131e0">55ec6e15c3cc321098db78cc050131e0</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Veterinary ServiceNow">55ec6e15c3cc321098db78cc050131e0</sys_scope>
+            <sys_update_name>sys_choice_u_vaccine_record_u_vaccine_type</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-09-17 18:24:05</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_vaccine_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>bordetella</label>
+            <language>en</language>
+            <name>u_vaccine_record</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-09-17 18:24:05</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-09-17 18:24:05</sys_updated_on>
+            <value>bordetella</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_vaccine_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>custom</label>
+            <language>en</language>
+            <name>u_vaccine_record</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-09-17 18:24:05</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-09-17 18:24:05</sys_updated_on>
+            <value>custom</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_vaccine_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>dhpp</label>
+            <language>en</language>
+            <name>u_vaccine_record</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-09-17 18:24:05</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-09-17 18:24:05</sys_updated_on>
+            <value>dhpp</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_vaccine_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>fvrcp</label>
+            <language>en</language>
+            <name>u_vaccine_record</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-09-17 18:24:05</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-09-17 18:24:05</sys_updated_on>
+            <value>fvrcp</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_vaccine_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>heartworm</label>
+            <language>en</language>
+            <name>u_vaccine_record</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-09-17 18:24:05</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-09-17 18:24:05</sys_updated_on>
+            <value>heartworm</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_vaccine_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>leukemia</label>
+            <language>en</language>
+            <name>u_vaccine_record</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-09-17 18:24:05</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-09-17 18:24:05</sys_updated_on>
+            <value>leukemia</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_vaccine_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>lyme</label>
+            <language>en</language>
+            <name>u_vaccine_record</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-09-17 18:24:05</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-09-17 18:24:05</sys_updated_on>
+            <value>lyme</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_vaccine_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>rabies</label>
+            <language>en</language>
+            <name>u_vaccine_record</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-09-17 18:24:05</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-09-17 18:24:05</sys_updated_on>
+            <value>rabies</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

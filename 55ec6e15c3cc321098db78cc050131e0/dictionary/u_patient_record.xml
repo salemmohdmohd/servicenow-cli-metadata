@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="2162cf91c340721098db78cc050131c5" max_length="40" name="u_patient_record" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Owner Name" max_length="100" name="u_owner_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Emergency Contact" max_length="40" name="u_emergency_contact" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Date of Birth" max_length="40" name="u_date_of_birth" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" label="Allergies" max_length="40" name="u_allergies" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Species" max_length="40" name="u_species" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="other" value="other"/>
+                <element inactive_on_update="false" label="dog" value="dog"/>
+                <element inactive_on_update="false" label="cat" value="cat"/>
+                <element inactive_on_update="false" label="reptile" value="reptile"/>
+                <element inactive_on_update="false" label="rabbit" value="rabbit"/>
+                <element inactive_on_update="false" label="bird" value="bird"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Gender" max_length="40" name="u_gender" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="female" value="female"/>
+                <element inactive_on_update="false" label="spayed" sequence="0" value="spayed"/>
+                <element inactive_on_update="false" label="neutered" sequence="0" value="neutered"/>
+                <element inactive_on_update="false" label="male" value="male"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="u_number" type="string"/>
+        <element label="Weight" max_length="38" name="u_weight" type="decimal"/>
+        <element attributes="edge_encryption_enabled=true" label="Insurance Provider" max_length="40" name="u_insurance_provider" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Owner Phone" max_length="100" name="u_owner_phone" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Current Medications" max_length="40" name="u_current_medications" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Microchip Number" max_length="40" name="u_microchip_number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Patient Name" max_length="40" name="u_patient_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Medical History" max_length="45" name="u_medical_history" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Breed" max_length="100" name="u_breed" type="string"/>
+        <element label="Owner Email" max_length="40" name="u_owner_email" type="email"/>
+    </element>
+</database>
