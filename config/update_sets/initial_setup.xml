@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<unload unload_date="2025-09-16 21:30:00" unloader_version="1.0">
+    <sys_remote_update_set action="INSERT_OR_UPDATE">
+        <application display_value="Global">global</application>
+        <application_name>Veterinary ServiceNow</application_name>
+        <application_scope>global</application_scope>
+        <application_version>1.0.0</application_version>
+        <collisions/>
+        <commit_date/>
+        <deleted/>
+        <description>Initial setup for Veterinary ServiceNow implementation</description>
+        <inserted/>
+        <name>Veterinary ServiceNow - Initial Setup</name>
+        <origin_sys_id/>
+        <parent/>
+        <release_date/>
+        <remote_sys_id>global_vet_setup_001</remote_sys_id>
+        <sys_class_name>sys_remote_update_set</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-16 21:30:00</sys_created_on>
+        <sys_id>global_vet_setup_001</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-16 21:30:00</sys_updated_on>
+        <update_set display_value="Veterinary ServiceNow - Initial Setup"/>
+        <update_source display_value="Local file"/>
+        <updated/>
+    </sys_remote_update_set>
+</unload>
